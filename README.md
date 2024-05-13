@@ -23,3 +23,8 @@ Redirect to all my articles
 ## Contact
 
 Information on how visitors can contact you, including links to your social media profiles and your email address.
+
+
+## Useful tools 
+
+- [Spline 3D](https://spline.design)

@@ -1,4 +1,8 @@
-import { HeroComponent } from "./components/hero"
+import { HeroComponent } from "./components/Hero"
+
+import './App.css'
+import './fonts/CaviarDreams_Bold.ttf'
+import './fonts/CaviarDreams_BoldItalic.ttf'
 
 
 

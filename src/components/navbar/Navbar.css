@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff00;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar.blur {
+    filter: blur(5px);
+}
+
+.navbar-left h1 {
+    margin: 0;
+}
+
+.navbar-right {
+    position: relative;
+}
+
+.navbar-menu {
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}

@@ -1,5 +1,4 @@
 import { WavyBackground } from "./aceternityUi/bgWavy/bgWavyComponent";
-import { Image } from "@nextui-org/image";
 
 
 export function HeroComponent() {

@@ -1,14 +1,16 @@
 .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #ffffff00;
-    position: relative;
+    background-color: transparent;
     z-index: 1000;
 }
 
 .navbar.blur {
-    filter: blur(5px);
+    filter: blur(1px);
 }
 
 .navbar-left h1 {

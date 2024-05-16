@@ -1,29 +1,32 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
-export function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
+export function Navbar(props: any) {
+    const [isOpen, setIsOpen] = useState(props.isOpen);
+    const history = useNavigate();
 
-    useEffect(() => {
-        document.body.classList.toggle('blur', isOpen);
-    }, [isOpen]);
+    const handleMenuClick = () => {
+        setIsOpen(!isOpen);
+        document.querySelectorAll('.fade-element').forEach((element) => {
+            element.classList.remove('fade-in-up');
+            element.classList.add('fade-out');
+        });
+        setTimeout(() => {
+            if (isOpen) history('/');
+            else history('/menu');
+        }, 1500);
+    };
 
     return (
-        <nav className={`navbar ${isOpen ? 'blur' : ''}`}>
+        <nav className="navbar">
             <div className="navbar-left">
-                <h1>ZT</h1>
+                <p style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-xl md:text-2xl lg:text-3xl text-black font-bold inter-var text-center">ZT</p>
             </div>
             <div className="navbar-right">
-                <button onClick={() => setIsOpen(!isOpen)}>
-                    ☰
+                <button style={{ fontFamily: "Bold", color: "#11254c" }} className="text-xl md:text-2xl lg:text-3xl text-black font-bold inter-var text-center" onClick={handleMenuClick}>
+                    {isOpen ? 'X' : '☰'}
                 </button>
-                {isOpen && (
-                    <div className="navbar-menu">
-                        <h1>Item 1</h1>
-                        <h1>Item 2</h1>
-                        <h1>Item 3</h1>
-                    </div>
-                )}
             </div>
         </nav>
     );

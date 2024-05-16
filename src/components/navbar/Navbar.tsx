@@ -1,11 +1,18 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
-export function Navbar(props: any) {
-    const [isOpen, setIsOpen] = useState(props.isOpen);
+export function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
     const history = useNavigate();
     const location = useLocation();
+
+    // if last location was menu, then open is false
+    useEffect(() => {
+        if (location.pathname === '/') {
+            setIsOpen(false);
+        }
+    });
 
     const handleMenuClick = () => {
         document.querySelectorAll('.fade-element').forEach((element) => {
@@ -20,7 +27,16 @@ export function Navbar(props: any) {
     };
 
     const handleLogoClick = () => {
-        history('/');
+        if(location.pathname !== '/') {
+            document.querySelectorAll('.fade-element').forEach((element) => {
+                element.classList.remove('fade-in-up');
+                element.classList.add('fade-out');
+            });
+            
+        };
+        setTimeout(() => {
+            history('/');
+        }, 1500);
     };
 
     return (

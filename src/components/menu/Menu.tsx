@@ -13,7 +13,14 @@ export function Menu() {
 
 
     const handleHomeClick = () => {
-        navigate('/');
+        document.querySelectorAll('.fade-element').forEach((element) => {
+            element.classList.remove('fade-in-up');
+            element.classList.add('fade-out');
+        });
+        setTimeout(() => {
+            navigate('/');
+        }, 1500);
+        
     };
 
     return (

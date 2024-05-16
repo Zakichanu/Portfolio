@@ -15,6 +15,12 @@
       url("./fonts/CaviarDreams_BoldItalic.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Kilogram";   /*Can be any text*/
+  src: local("Kilogram-GvBO"),
+    url("./fonts/Kilogram-GvBO.otf") format("opentype");
+}
+
 
 .fade-out {
   animation: fadeUp 1s ease-out forwards;

@@ -12,9 +12,6 @@ A brief introduction of yourself, your development journey, your interests, and 
 
 2. **Project 2** : A detailed description of the project, the technologies used, the challenges encountered and how you overcame them.
 
-## Skills
-
-A list of your technical skills, including programming languages, frameworks, databases, and other tools you master.
 
 ## Blogging Section
 

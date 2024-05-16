@@ -21,10 +21,10 @@ export function Navbar(props: any) {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <p style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-xl md:text-2xl lg:text-3xl text-black font-bold inter-var text-center">ZT</p>
+                <p style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-xl md:text-3xl lg:text-4xl text-black font-bold inter-var text-center">ZT</p>
             </div>
             <div className="navbar-right">
-                <button style={{ fontFamily: "Bold", color: "#11254c" }} className="text-xl md:text-2xl lg:text-3xl text-black font-bold inter-var text-center" onClick={handleMenuClick}>
+                <button style={{ fontFamily: "Bold", color: "#11254c" }} className="text-xl md:text-3xl lg:text-4xl text-black font-bold inter-var text-center" onClick={handleMenuClick}>
                     {isOpen ? 'X' : '☰'}
                 </button>
             </div>

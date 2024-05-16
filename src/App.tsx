@@ -9,9 +9,7 @@ import './fonts/CaviarDreams_BoldItalic.ttf'
 function App() {
 
   return (
-    <>
-      <HeroComponent />
-    </>
+    <HeroComponent />
   )
 }
 

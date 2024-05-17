@@ -1,6 +1,21 @@
+import { useEffect } from "react";
 import { TracingBeam } from "../aceternityUi/tracingBeam/TracingBeam";
 
 export function Blog() {
+  useEffect(() => {
+    const elements = document.querySelectorAll('.h-screen');
+   elements.forEach((element) => {
+      element.classList.remove('justify-center');
+    });
+
+    return () => {
+      elements.forEach((element) => {
+        element.classList.add('justify-center');
+      });
+    };
+    
+    }, []);
+
   return (
     <TracingBeam className="px-10 mt-20">
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
@@ -10,7 +25,7 @@ export function Blog() {
               {item.badge}
             </h2>
 
-            <p className= "text-xl mb-4">
+            <p className="text-xl mb-4">
               {item.title}
             </p>
 

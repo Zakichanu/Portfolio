@@ -9,7 +9,7 @@ export function Navbar() {
 
     // if last location was menu, then open is false
     useEffect(() => {
-        if (location.pathname === '/') {
+        if (location.pathname !== '/menu') {
             setIsOpen(false);
         }
     });
@@ -21,7 +21,7 @@ export function Navbar() {
         });
         setTimeout(() => {
             setIsOpen(!isOpen);
-            if (isOpen) history('/');
+            if (isOpen) history(-1);
             else history('/menu');
         }, 1500);
     };

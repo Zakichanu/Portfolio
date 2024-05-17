@@ -2,8 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { HeroComponent } from "./components/hero/Hero";
 import { Navbar } from "./components/navbar/Navbar";
 import { Menu } from "./components/menu/Menu";
-import { WavyBackground } from "./components/aceternityUi/bgWavy/BgWavy";
-import { About } from "./components/about/About";
+import { Blog } from "./components/blog/Blog";
 
 function Router() {
     // NB : organization and chargingstation are the parameters passed in the URL. Organization represents the subdomain of the tenant and the charginstation represents the charging station ID.
@@ -12,14 +11,12 @@ function Router() {
 
         <BrowserRouter>
             <Navbar />
-            <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto" >
 
-                <Routes>
-                    <Route path="/" element={<HeroComponent />} />
-                    <Route path="/menu" element={<Menu />} />
-                    <Route path="/about" element={<About />} />
-                </Routes>
-            </WavyBackground>
+            <Routes>
+                <Route path="/" element={<HeroComponent />} />
+                <Route path="/menu" element={<Menu />} />
+                <Route path="/blog" element={<Blog />} />
+            </Routes>
         </BrowserRouter>
     );
 }

@@ -4,7 +4,7 @@ import { TracingBeam } from "../aceternityUi/tracingBeam/TracingBeam";
 export function Blog() {
   useEffect(() => {
     const elements = document.querySelectorAll('.h-screen');
-   elements.forEach((element) => {
+    elements.forEach((element) => {
       element.classList.remove('justify-center');
     });
 
@@ -13,8 +13,8 @@ export function Blog() {
         element.classList.add('justify-center');
       });
     };
-    
-    }, []);
+
+  }, []);
 
   return (
     <TracingBeam className="px-10 mt-20">

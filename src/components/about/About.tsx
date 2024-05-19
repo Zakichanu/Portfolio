@@ -22,7 +22,7 @@ const About = () => {
                 </p>
                 <br />
                 <div style={{color: "#1f458c"}} className="fade-element text-center md:text-3xl ml-4 mt-4 text-black inter-var">
-                    <a href="https://www.linkedin.com/in/zakaria-tobbal/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://github.com/Zakichanu" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href={myCV} target="_blank" rel="noopener noreferrer">Curriculum</a>
+                    <a href="https://www.linkedin.com/in/zakaria-tobbal/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://github.com/Zakichanu" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href={myCV} target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </div>
         </div>

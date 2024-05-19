@@ -49,7 +49,7 @@ export const WavyBackground = ({
     canvas = canvasRef.current;
     ctx = canvas.getContext("2d");
     w = ctx.canvas.width = window.innerWidth;
-    h = ctx.canvas.height = document.body.scrollHeight ;
+    h = ctx.canvas.height = document.body.scrollHeight;
     ctx.filter = `blur(${blur}px)`;
     nt = 0;
     window.onresize = function () {
@@ -91,41 +91,63 @@ export const WavyBackground = ({
     animationId = requestAnimationFrame(render);
   };
 
+  const childrenRef = useRef<HTMLDivElement>(null);
+
+  const [childrenHeight, setChildrenHeight] = useState(0);
+
+  useEffect(() => {
+    const updateChildrenHeight = () => {
+      if (childrenRef.current) {
+        setChildrenHeight(childrenRef.current.offsetHeight);
+      }
+    };
+
+    window.addEventListener('resize', updateChildrenHeight);
+
+    // Initial update
+    updateChildrenHeight();
+
+    return () => {
+      window.removeEventListener('resize', updateChildrenHeight);
+    };
+  }, []);
+
   useEffect(() => {
     init();
+    console.log("init");
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, []);
+  }, [childrenHeight]);
 
   const [isSafari, setIsSafari] = useState(false);
   useEffect(() => {
     // I'm sorry but i have got to support it on safari.
     setIsSafari(
       typeof window !== "undefined" &&
-        navigator.userAgent.includes("Safari") &&
-        !navigator.userAgent.includes("Chrome")
+      navigator.userAgent.includes("Safari") &&
+      !navigator.userAgent.includes("Chrome")
     );
   }, []);
 
   return (
     <div
-      className={cn(
-        "h-screen flex flex-col items-center justify-center",
-        containerClassName
-      )}
+        className={cn(
+            "h-screen flex flex-col items-center justify-center",
+            containerClassName
+        )}
     >
-      <canvas
-        className="absolute inset-0 z-0"
-        ref={canvasRef}
-        id="canvas"
-        style={{
-          ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
-        }}
-      ></canvas>
-      <div className={cn("z-10", className)} {...props}>
-        {children}
-      </div>
+        <canvas
+            className="absolute inset-0 z-0"
+            ref={canvasRef}
+            id="canvas"
+            style={{
+                ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
+            }}
+        ></canvas>
+        <div className={cn("z-10", className)} ref={childrenRef} {...props}>
+            {children}
+        </div>
     </div>
   );
 };

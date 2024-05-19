@@ -30,8 +30,8 @@ export function Work() {
     }, []);
 
     return (
-        <BentoGrid className="fade-element max-w-4xl mx-auto mt-16">
-            <div style={{ fontFamily: "Bold" }} className="md:col-span-3">
+        <>
+            <div style={{ fontFamily: "Bold" }} className="mx-auto mt-20">
                 <p style={{ color: "#1f458c" }} className="fade-element text-xl md:text-3xl lg:text-5xl text-black inter-var text-center">
                     Work
                 </p>
@@ -39,18 +39,21 @@ export function Work() {
                     Here are some of the projects I have worked on.
                 </p>
             </div>
-            {items.map((item, i) => (
-                <BentoGridItem
-                    key={i}
-                    title={item.title}
-                    description={item.description}
-                    header={item.header}
-                    icon={item.icon}
-                    link={item.link}
-                    className={i === 0 ? "md:col-span-3" : (i === 5) ? "md:col-span-2" : ""}
-                />
-            ))}
-        </BentoGrid>
+            <BentoGrid className="fade-element max-w-4xl mx-auto mt-20">
+                {items.map((item, i) => (
+                    <BentoGridItem
+                        key={i}
+                        title={item.title}
+                        description={item.description}
+                        header={item.header}
+                        icon={item.icon}
+                        link={item.link}
+                        className={i === 0 ? "md:col-span-3" : (i === 5) ? "md:col-span-2" : ""}
+                    />
+                ))}
+            </BentoGrid>
+        </>
+
     );
 }
 const items = [
@@ -78,7 +81,7 @@ const items = [
     {
         title: "FSoccerAlertBot",
         description: "One of my very first achievements, I created a twitter bot that tweets the latest football scores, with an insane feature, I tell you more about that on the following article.",
-        header: <img src={ballImg} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-20 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
+        header: <img src={ballImg} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-24 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
         icon: <IconBallFootball className="h-4 w-4 text-neutral-500" />,
     },
     {

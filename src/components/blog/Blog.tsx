@@ -1,11 +1,13 @@
 import { useEffect } from "react";
-import { TracingBeam } from "../aceternityUi/tracingBeam/TracingBeam";
 
 export function Blog() {
-  useEffect(() => {
+useEffect(() => {
     const elements = document.querySelectorAll('.h-screen');
     elements.forEach((element) => {
       element.classList.remove('justify-center');
+    });
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.add('fade-in-up');
     });
 
     return () => {
@@ -17,34 +19,33 @@ export function Blog() {
   }, []);
 
   return (
-    <TracingBeam className="px-10 mt-20">
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative">
-        {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-              {item.badge}
-            </h2>
 
-            <p className="text-xl mb-4">
-              {item.title}
-            </p>
+    <div className="fade-element max-w-2xl mx-auto antialiased pt-4 relative">
+      {dummyContent.map((item, index) => (
+        <div key={`content-${index}`} className="mb-10">
+          <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+            {item.badge}
+          </h2>
 
-            <div className="text-sm  prose prose-sm dark:prose-invert">
-              {item?.image && (
-                <img
-                  src={item.image}
-                  alt="blog thumbnail"
-                  height="1000"
-                  width="1000"
-                  className="rounded-lg mb-10 object-cover"
-                />
-              )}
-              {item.description}
-            </div>
+          <p className="text-xl mb-4">
+            {item.title}
+          </p>
+
+          <div className="text-sm  prose prose-sm dark:prose-invert">
+            {item?.image && (
+              <img
+                src={item.image}
+                alt="blog thumbnail"
+                height="1000"
+                width="1000"
+                className="rounded-lg mb-10 object-cover"
+              />
+            )}
+            {item.description}
           </div>
-        ))}
-      </div>
-    </TracingBeam>
+        </div>
+      ))}
+    </div>
   );
 }
 

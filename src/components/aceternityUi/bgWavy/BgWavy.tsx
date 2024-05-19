@@ -1,5 +1,6 @@
 import { cn } from "../../../utils/cn";
 import { useEffect, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { createNoise3D } from "simplex-noise";
 
 export const WavyBackground = ({
@@ -91,34 +92,25 @@ export const WavyBackground = ({
     animationId = requestAnimationFrame(render);
   };
 
-  const childrenRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
+  useEffect(() => {
+    const elements = document.querySelectorAll("canvas");
+    const ctx = elements[0].getContext("2d");
+    if(!ctx) return;
+    ctx.canvas.height = document.body.scrollHeight;
+    ctx.canvas.width = window.innerWidth;
+    ctx.filter = `blur(${blur}px)`;
+  }, [location.pathname]);
 
-  const [childrenHeight, setChildrenHeight] = useState(0);
 
   useEffect(() => {
-    const updateChildrenHeight = () => {
-      if (childrenRef.current) {
-        setChildrenHeight(childrenRef.current.offsetHeight);
-      }
-    };
-
-    window.addEventListener('resize', updateChildrenHeight);
-
-    // Initial update
-    updateChildrenHeight();
-
-    return () => {
-      window.removeEventListener('resize', updateChildrenHeight);
-    };
-  }, []);
-
-  useEffect(() => {
+    // Check if document has h-screen class
     init();
     console.log("init");
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, [childrenHeight]);
+  }, []);
 
   const [isSafari, setIsSafari] = useState(false);
   useEffect(() => {
@@ -145,7 +137,7 @@ export const WavyBackground = ({
                 ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
             }}
         ></canvas>
-        <div className={cn("z-10", className)} ref={childrenRef} {...props}>
+        <div className={cn("z-10", className)} {...props}>
             {children}
         </div>
     </div>

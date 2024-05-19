@@ -11,10 +11,9 @@ function Router() {
     // NB : organization and chargingstation are the parameters passed in the URL. Organization represents the subdomain of the tenant and the charginstation represents the charging station ID.
 
     return (
-
         <BrowserRouter>
             <Navbar />
-            <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto" >
+            <WavyBackground  colors={["#8AAAE5"]} backgroundFill="white" className="fade-element mx-auto" >
                 <Routes>
                     <Route path="/" element={<HeroComponent />} />
                     <Route path="/menu" element={<Menu />} />
@@ -23,7 +22,6 @@ function Router() {
                     <Route path="/work" element={<Work />} />
                 </Routes>
             </WavyBackground>
-
         </BrowserRouter>
     );
 }

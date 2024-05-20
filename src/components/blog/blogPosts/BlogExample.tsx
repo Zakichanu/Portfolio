@@ -27,7 +27,7 @@ useEffect(() => {
             {item.badge}
           </h2>
 
-          <p className="text-xl mb-4">
+          <p style={{fontFamily : "Kilogram", color: "#1f458c"}} className="text-4xl mb-4">
             {item.title}
           </p>
 
@@ -51,7 +51,7 @@ useEffect(() => {
 
 const dummyContent = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Lessgoooo",
     description: (
       <>
         <p>

@@ -97,16 +97,16 @@ export const WavyBackground = ({
     const elements = document.querySelectorAll("canvas");
     const ctx = elements[0].getContext("2d");
     if(!ctx) return;
-    ctx.canvas.height = document.body.scrollHeight;
+    ctx.canvas.height = document.documentElement.scrollHeight;
     ctx.canvas.width = window.innerWidth;
     ctx.filter = `blur(${blur}px)`;
+    console.log(ctx.canvas.height)
   }, [location.pathname]);
 
 
   useEffect(() => {
     // Check if document has h-screen class
     init();
-    console.log("init");
     return () => {
       cancelAnimationFrame(animationId);
     };

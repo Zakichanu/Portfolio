@@ -63,6 +63,7 @@ const items = [
             "With two friends, we built the mobility of tomorrow.",
         header: <img src={logoRMA} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-full max-h-36 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
         icon: <IconChargingPile className="h-4 w-4 text-neutral-500" />,
+        link: "/blog/being-a-baby-cto"
     },
     {
         title: "Pepper Third Party API",
@@ -83,6 +84,7 @@ const items = [
         description: "One of my very first achievements, I created a twitter bot that tweets the latest football scores, with an insane feature, I tell you more about that on the following article.",
         header: <img src={ballImg} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-24 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
         icon: <IconBallFootball className="h-4 w-4 text-neutral-500" />,
+        link: "/blog/football-alert"
     },
     {
         title: "Engineering Apprenticeship",

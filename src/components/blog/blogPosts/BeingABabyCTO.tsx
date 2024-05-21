@@ -29,12 +29,12 @@ export function BeingABabyCTO() {
                         {item.title}
                     </p>
 
-                    <h2 className="bg-green-900 text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+                    <h2 className="bg-purple-900 text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
                         {item.badge}
                     </h2>
 
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
-                        Date of Publication: 2024-05-20
+                        Date of Publication: 2024-05-21
                     </div><br /><br />
                     <div className="text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img
@@ -57,7 +57,9 @@ const dummyContent = [
         description: (
             <>
                 <p>
-                    Launching a startup while being a student is a thrilling yet daunting task, especially when taking on the role of Chief Technology Officer (CTO). This article delves into the unique constraints and advantages of being a student CTO in a startup launched with friends, highlighting the impact of inexperience and the balancing act required to juggle academic and entrepreneurial responsibilities. NB : The photo above is my desk, where I spend most of my time working on my startup and academic projects the last 6 years.
+                    Launching a startup while being a student is a thrilling yet daunting task, especially when taking on the role of Chief Technology Officer (CTO). This article delves into the unique constraints and advantages of being a student CTO in a startup launched with friends, highlighting the impact of inexperience and the balancing act required to juggle academic and entrepreneurial responsibilities.
+                    <br /><br />
+                    NB: The photo above is of my desk, where I have spent most of my time working on my startup and academic projects for the past 6 years.
                 </p>
                 <br />
                 <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >I. The Role of a Student CTO</p>
@@ -79,7 +81,7 @@ const dummyContent = [
                 <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >III. Constraints of Being a Student CTO in a Startup with Friends</p>
                 <br />
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }}>Time Management</a>: Balancing academic responsibilities with the demands of a startup is the the <b>biggest</b> challenges. Effective time management is essential to ensure that both my studies and the startup receive the attention they need.
+                    &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }}>Time Management</a>: Balancing academic responsibilities with the demands of a startup is the the <b>biggest</b> challenge. Effective time management is essential to ensure that both my studies and the startup receive the attention they need.
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }}>Inexperience</a>: As students, our inexperience can be a significant constraint. We are constantly learning on the job, which can lead to mistakes and steep learning curves. However, these experiences are invaluable for our growth and development.
                     <br />
@@ -133,6 +135,6 @@ const dummyContent = [
                 <br /><br />
             </>
         ),
-        badge: "Projects",
+        badge: "Thoughts",
     },
 ];

@@ -116,7 +116,7 @@ const dummyContent = [
                 <BentoGridItem
                     key={0}
                     description=""
-                    header={<img src={imgRepo} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-40 md:max-h-auto rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
+                    header={<img src={imgRepo} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto md:max-h-auto rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
                     link={"https://github.com/Zakichanu/FSoccerAlertBot"}
                     className={"md:col-span-3"}
                 />

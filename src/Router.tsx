@@ -8,6 +8,7 @@ import { WavyBackground } from "./components/aceternityUi/bgWavy/BgWavy";
 import { Work } from "./components/work/Work";
 import { FootAlert } from "./components/blog/blogPosts/FootAlert";
 import { BlogExample } from "./components/blog/blogPosts/BlogExample";
+import { BeingABabyCTO } from "./components/blog/blogPosts/BeingABabyCTO";
 
 function Router() {
     // NB : organization and chargingstation are the parameters passed in the URL. Organization represents the subdomain of the tenant and the charginstation represents the charging station ID.
@@ -22,9 +23,9 @@ function Router() {
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/work" element={<Work />} />
-                    <Route path="/blog/football-alert" element={<FootAlert />} />
                     <Route path="/blog-example" element={<BlogExample />} />
-
+                    <Route path="/blog/football-alert" element={<FootAlert />} />
+                    <Route path="/blog/being-a-baby-cto" element={<BeingABabyCTO />} />
                 </Routes>
             </WavyBackground>
         </BrowserRouter>

@@ -10,14 +10,24 @@ export function Blog() {
 
   const handleFAlertClick = () => {
     document.querySelectorAll('.fade-element').forEach((element) => {
-        element.classList.remove('fade-in-up');
-        element.classList.add('fade-out');
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
     });
     setTimeout(() => {
-        navigate('/blog/football-alert');
+      navigate('/blog/football-alert');
+    }, 1500);
+  };
+
+  const handleBbyCtoClick = () => {
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
+    });
+    setTimeout(() => {
+      navigate('/blog/being-a-baby-cto');
     }, 1500);
 
-};
+  };
 
   useEffect(() => {
     document.querySelectorAll('.fade-element').forEach((element) => {
@@ -47,10 +57,10 @@ export function Blog() {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
-        <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-gray-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+        <WobbleCard onClick={handleBbyCtoClick} containerClassName="col-span-1 lg:col-span-3 bg-gray-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-              A day in a life of a baby CTO?
+              Being a baby CTO
             </h2>
             <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
               Since 2022, I have been working on my first ever tech startup. In this blog post, I share my journey and the lessons I have learned. And I also share my thoughts of the electric vehicle industry.

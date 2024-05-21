@@ -105,7 +105,7 @@ const dummyContent = [
 
                     <br /><br />
 
-                    I hope you enjoyed this article and that it has given you some insight into the development of a Twitter bot. If you have any questions or suggestions, feel free to contact me via email.
+                    I hope you enjoyed this article and that it has given you some insight into the development of a Twitter bot. If you have any questions or suggestions, feel free to contact me via <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakariatobb@gmail.com">email</a>.
 
                     <br /><br />
 

@@ -117,11 +117,11 @@ const dummyContent = [
                     As we continue to develop our innovative platform, I am confident that our passion, combined with our willingness to learn and adapt, will help us overcome obstacles and achieve our goals. The journey of a student entrepreneur was just part of the beginning, and the experiences gained along the way will be invaluable for our future endeavors. Now that we are in 2024, we are more determined than ever to make a positive impact in the electric mobility sector and contribute to a sustainable and smarter future in transportation. Also, now I am not a baby CTO anymore, but a real one.
 
                     <br />
-                    Thanks for reading. If you have any questions or suggestions, feel free to contact me via <a href="mailto:zakariatobb@gmail.com">email</a>.
+                    Thanks for reading. If you have any questions or suggestions, feel free to contact me via <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakariatobb@gmail.com">email</a>.
 
                     <br /><br />
 
-                    Check this video (in French), where me and my co-founders talk about our startup and being a student beside.
+                    Check this video (in French), where me and the other co-founders talk about our startup and being a student beside.
                 </p>
                 <br /><br />
 

@@ -18,6 +18,16 @@ export function Blog() {
     }, 1500);
   };
 
+  const handleApproachIotClick = () => {
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
+    });
+    setTimeout(() => {
+      navigate('/blog/approach-iot');
+    }, 1500);
+  };
+
   const handleBbyCtoClick = () => {
     document.querySelectorAll('.fade-element').forEach((element) => {
       element.classList.remove('fade-in-up');
@@ -57,7 +67,7 @@ export function Blog() {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
-        <WobbleCard onClick={handleBbyCtoClick} containerClassName="col-span-1 lg:col-span-3 bg-gray-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+        <WobbleCard onClick={handleBbyCtoClick} containerClassName="col-span-1 lg:col-span-3 bg-blue-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
               Being a baby CTO
@@ -94,7 +104,7 @@ export function Blog() {
             className="absolute -right-[10%] lg:-right-[1%] filter -bottom-40 md:-bottom-20 object-contain rounded-2xl"
           />
         </WobbleCard>
-        <WobbleCard containerClassName="col-span-1 min-h-[300px]">
+        <WobbleCard onClick={handleApproachIotClick} containerClassName="col-span-1 min-h-[300px]">
           <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             How to approach an IOT project?
           </h2>

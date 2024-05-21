@@ -9,6 +9,7 @@ import { Work } from "./components/work/Work";
 import { FootAlert } from "./components/blog/blogPosts/FootAlert";
 import { BlogExample } from "./components/blog/blogPosts/BlogExample";
 import { BeingABabyCTO } from "./components/blog/blogPosts/BeingABabyCTO";
+import { ApproachIOT } from "./components/blog/blogPosts/ApproachIOT";
 
 function Router() {
     // NB : organization and chargingstation are the parameters passed in the URL. Organization represents the subdomain of the tenant and the charginstation represents the charging station ID.
@@ -26,6 +27,7 @@ function Router() {
                     <Route path="/blog-example" element={<BlogExample />} />
                     <Route path="/blog/football-alert" element={<FootAlert />} />
                     <Route path="/blog/being-a-baby-cto" element={<BeingABabyCTO />} />
+                    <Route path="/blog/approach-iot" element={<ApproachIOT />} />
                 </Routes>
             </WavyBackground>
         </BrowserRouter>

@@ -59,7 +59,7 @@ const dummyContent = [
                 <p>
                     Launching a startup while being a student is a thrilling yet daunting task, especially when taking on the role of Chief Technology Officer (CTO). This article delves into the unique constraints and advantages of being a student CTO in a startup launched with friends, highlighting the impact of inexperience and the balancing act required to juggle academic and entrepreneurial responsibilities.
                     <br /><br />
-                    NB: The photo above is of my desk, where I have spent most of my time working on my startup and academic projects for the past 6 years.
+                    NB: The photo above is my desk, where I have spent most of my time working on my startup and academic projects for the past 6 years.
                 </p>
                 <br />
                 <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >I. The Role of a Student CTO</p>

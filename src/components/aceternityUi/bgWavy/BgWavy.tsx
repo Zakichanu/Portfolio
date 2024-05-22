@@ -100,7 +100,6 @@ export const WavyBackground = ({
     ctx.canvas.height = document.documentElement.scrollHeight;
     ctx.canvas.width = window.innerWidth;
     ctx.filter = `blur(${blur}px)`;
-    console.log(ctx.canvas.height)
   }, [location.pathname]);
 
 

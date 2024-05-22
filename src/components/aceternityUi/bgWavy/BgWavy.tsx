@@ -92,12 +92,14 @@ export const WavyBackground = ({
     animationId = requestAnimationFrame(render);
   };
 
-  const location = useLocation();
+
+  const location = useLocation();  
   useEffect(() => {
+    const childDivHeight = document.querySelector('.z-10')?.clientHeight || 0;
     const elements = document.querySelectorAll("canvas");
     const ctx = elements[0].getContext("2d");
-    if(!ctx) return;
-    ctx.canvas.height = document.documentElement.scrollHeight;
+    if (!ctx) return;
+    ctx.canvas.height = (childDivHeight > window.innerHeight) ? childDivHeight : window.innerHeight;
     ctx.canvas.width = window.innerWidth;
     ctx.filter = `blur(${blur}px)`;
   }, [location.pathname]);
@@ -123,22 +125,22 @@ export const WavyBackground = ({
 
   return (
     <div
-        className={cn(
-            "h-screen flex flex-col items-center justify-center",
-            containerClassName
-        )}
+      className={cn(
+        "h-screen flex flex-col items-center justify-center",
+        containerClassName,
+      )}
     >
-        <canvas
-            className="absolute inset-0 z-0"
-            ref={canvasRef}
-            id="canvas"
-            style={{
-                ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
-            }}
-        ></canvas>
-        <div className={cn("z-10", className)} {...props}>
-            {children}
-        </div>
+      <canvas
+        className="absolute inset-0 z-0"
+        ref={canvasRef}
+        id="canvas"
+        style={{
+          ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
+        }}
+      ></canvas>
+      <div className={cn("z-10", className)} {...props}>
+        {children}
+      </div>
     </div>
   );
 };

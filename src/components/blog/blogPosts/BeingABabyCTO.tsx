@@ -128,7 +128,7 @@ const dummyContent = [
                 <BentoGridItem
                     key={0}
                     description=""
-                    header={<img src={thumbnailTedX} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-10 md:max-h-50 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
+                    header={<img src={thumbnailTedX} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-30 md:max-h-50 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
                     link={"https://m.youtube.com/watch?v=AE7bXP_PuyU"}
                     className={"md:col-span-3"}
                 />

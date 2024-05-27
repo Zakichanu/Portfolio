@@ -53,7 +53,7 @@ export function BeingABabyCTO() {
 
 const dummyContent = [
     {
-        title: "Being a baby CTO",
+        title: "Being a Junior CTO",
         description: (
             <>
                 <p>

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import PlugSync from "../../../assets/PlugSync.jpg";
+import PlugSync from "../../../assets/PlugSync.webp";
 
 export function ApproachIOT() {
     useEffect(() => {
@@ -23,7 +23,7 @@ export function ApproachIOT() {
         <div className="flex flex-col justify-center items-center mt-10 fade-element max-w-4xl mx-auto pt-4 relative text-justify md:text-left px-4 md:px-0">
             {dummyContent.map((item, index) => (
                 <div key={`content-${index}`} className="mb-10 text-justify mx-auto px-4 md:px-0">
-                    <p style={{ fontFamily: "Bold", color: "#1f458c" }} className="text-2xl md:text-6xl  mb-4">
+                    <p style={{ fontFamily: "Bold", color: "#1f458c" }} className="text-2xl md:text-6xl mb-4">
                         {item.title}
                     </p>
 
@@ -34,13 +34,16 @@ export function ApproachIOT() {
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
                         Date of Publication: 2024-05-21
                     </div><br /><br />
-                    <div className="text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
+                    <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img
                             src={PlugSync}
                             alt="blog thumbnail"
-                            style={{ justifyContent: "center", width: "100%", height: "auto" }}
-                            className="rounded-2xl justify-center mb-10 object-cover mx-auto"
+                            loading="lazy" // Added lazy loading
+                            className="rounded-2xl w-3/5 h-auto" // Ensure image is responsive
                         />
+                    </div>
+                    <br /> 
+                    <div className="text-lg prose prose-lg dark:prose-invert text-bold">
                         {item.description}
                     </div>
                 </div>
@@ -48,6 +51,7 @@ export function ApproachIOT() {
         </div>
     );
 }
+
 
 const dummyContent = [
     {

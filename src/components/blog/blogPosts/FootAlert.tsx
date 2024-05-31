@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { BentoGridItem } from "../../aceternityUi/bentoGrid/BentoGrid";
 import imgRepo from "../../../assets/FSoccerAlertBot.png";
+import profileBotFootAlert from "../../../assets/SoccerFootAlert.webp";
 
 export function FootAlert() {
     useEffect(() => {
@@ -35,15 +36,17 @@ export function FootAlert() {
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
                         Date of Publication: 2024-05-20
                     </div><br /><br />
-                    <div className="text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
-                        {item?.image && (
-                            <img
-                                src={item.image}
-                                alt="blog thumbnail"
-                                style={{ justifyContent: "center", width: "50%", height: "auto" }}
-                                className="rounded-2xl justify-center mb-10 object-cover mx-auto"
-                            />
-                        )}
+                    <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
+                        <img
+                            src={profileBotFootAlert}
+                            alt="blog thumbnail"
+                            loading="lazy" // Added lazy loading
+                            className="rounded-2xl w-3/5 h-auto"
+                        />
+
+                    </div>
+                    <br />
+                    <div className="text-lg prose prose-lg dark:prose-invert text-bold">
                         {item.description}
                     </div>
                 </div>
@@ -125,7 +128,5 @@ const dummyContent = [
             </>
         ),
         badge: "Projects",
-        image:
-            "/SoccerFootAlert.jpg",
     },
 ];

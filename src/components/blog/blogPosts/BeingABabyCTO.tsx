@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import myDesk from "../../../assets/myDesk.jpg";
+import myDesk from "../../../assets/myDesk.webp";
 import thumbnailTedX from "../../../assets/thumbnailTedX.png";
 import { BentoGridItem } from "../../aceternityUi/bentoGrid/BentoGrid";
 
@@ -36,13 +36,16 @@ export function BeingABabyCTO() {
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
                         Date of Publication: 2024-05-21
                     </div><br /><br />
-                    <div className="text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
+                    <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img
                             src={myDesk}
                             alt="blog thumbnail"
-                            style={{ justifyContent: "center", width: "100%", height: "auto" }}
-                            className="rounded-2xl justify-center mb-10 object-cover mx-auto"
+                            loading="lazy" // Added lazy loading
+                            className="rounded-2xl w-3/5 h-auto"
                         />
+                    </div>
+                    <br />
+                    <div className="text-lg prose prose-lg dark:prose-invert text-bold">
                         {item.description}
                     </div>
                 </div>

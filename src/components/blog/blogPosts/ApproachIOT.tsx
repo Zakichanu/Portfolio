@@ -148,7 +148,7 @@ const dummyContent = [
                     - Learn from real-world examples to gain insights and inspiration<br />
 
                     <br />
-                    Thanks for reading. If you have any questions or suggestions, feel free to contact me via <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakariatobb@gmail.com">email</a>.
+                    Thanks for reading. If you have any questions or suggestions, feel free to contact me via <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakaria.tobbal@zakichan.tech">email</a>.
                 </p>
                 <br /><br />
             </>

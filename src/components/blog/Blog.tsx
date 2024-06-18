@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { WobbleCard } from "../aceternityUi/wobbleCard/WobbleCard";
 import soccerFootAlert from "../../assets/SoccerFootAlert.jpg"
+import zakichanTechRemoveBG from "../../assets/ZakichanTechRemoveBG.png"
 import bannerRMA from "../../assets/bannerRMA.png"
 import { useNavigate } from "react-router-dom";
 
@@ -39,6 +40,16 @@ export function Blog() {
 
   };
 
+  const handleZakichanTechClick = () => {
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
+    });
+    setTimeout(() => {
+      navigate('/blog/zakichan-technologies');
+    }, 1500);
+  }
+
   useEffect(() => {
     document.querySelectorAll('.fade-element').forEach((element) => {
       element.classList.add('fade-in-up');
@@ -66,7 +77,7 @@ export function Blog() {
           I write about my journey as a developer, my projects, and my thoughts on the tech industry.
         </p>
       </div>
-      <div className=" fade-element grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
+      <div className=" p-3 fade-element grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
         <WobbleCard onClick={handleBbyCtoClick} containerClassName="col-span-1 lg:col-span-3 bg-blue-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
@@ -111,6 +122,26 @@ export function Blog() {
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
             In this blog post, I share my experience of working on an IOT project. I share the challenges I faced and the lessons I learned.
           </p>
+        </WobbleCard>
+        <WobbleCard onClick={handleZakichanTechClick}
+          containerClassName="col-span-1 lg:col-span-3 bg-purple-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
+          className=""
+        >
+          <div className="max-w-xs">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              The Journey of Zakichan Technologies
+            </h2>
+            <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            Zakichan Technologies offers top-notch web technology services and strategic consulting, aiming to bridge the gap between technology and business strategy. Alongside this, it embraces content creation to share knowledge and inspire the tech community.
+            </p>
+          </div>
+          <img
+            src={zakichanTechRemoveBG}
+            width={500}
+            height={500}
+            alt="linear demo image"
+            className="absolute -right-[1%] lg:-right-[1%] filter -bottom-12 md:-bottom-5 object-contain rounded-2xl"
+          />
         </WobbleCard>
       </div>
     </>

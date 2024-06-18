@@ -59,7 +59,7 @@ const dummyContent = [
         description: (
             <>
                 <p>
-                    The Internet of Things (IoT) holds immense potential for transforming industries by enabling enhanced connectivity, data collection, and automation. However, successfully launching an IoT project requires careful planning and execution. Here’s a streamlined guide to help you navigate your IoT project, including a real-world example of a smart home automation system.
+                    The Internet of Things (IoT) holds immense potential for transforming industries by enabling enhanced connectivity, data collection, and automation. However, successfully launching an IoT project requires careful planning and execution. Here’s a streamlined guide to help you navigate your IoT project, including a real-world example of the PlugSync module.
                 </p>
                 <br />
                 <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >I. Defining Objectives and Scope</p>

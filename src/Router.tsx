@@ -17,19 +17,37 @@ function Router() {
     return (
         <BrowserRouter>
             <Navbar />
-            <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto" >
                 <Routes>
-                    <Route path="/" element={<HeroComponent />} />
-                    <Route path="/menu" element={<Menu />} />
-                    <Route path="/blog" element={<Blog />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/work" element={<Work />} />
+                    <Route path="/" element={
+                        <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto">
+                            <HeroComponent />
+                        </WavyBackground>
+                    } />
+                    <Route path="/menu" element={
+                        <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto">
+                            <Menu />
+                        </WavyBackground>
+                    } />
+                    <Route path="/blog" element={
+                        <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto">
+                            <Blog />
+                        </WavyBackground>
+                    }  />
+                    <Route path="/about" element={
+                        <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto">
+                            <About />
+                        </WavyBackground>
+                    }  />
+                    <Route path="/work" element={
+                        <WavyBackground colors={["#8AAAE5"]} backgroundFill="white" className="mx-auto">
+                            <Work />
+                        </WavyBackground>
+                    }  />
                     <Route path="/blog/football-alert" element={<FootAlert />} />
                     <Route path="/blog/being-a-baby-cto" element={<BeingABabyCTO />} />
                     <Route path="/blog/approach-iot" element={<ApproachIOT />} />
                     <Route path="/blog/zakichan-technologies" element={<ZakichanTechnologies />} />
                 </Routes>
-            </WavyBackground>
         </BrowserRouter>
     );
 }

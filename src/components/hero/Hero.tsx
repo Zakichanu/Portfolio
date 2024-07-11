@@ -1,8 +1,12 @@
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 
 
 export function HeroComponent() {
+
+
+    const { t } = useTranslation();
 
     useEffect(() => {
         document.querySelectorAll('.fade-element').forEach((element) => {
@@ -16,10 +20,10 @@ export function HeroComponent() {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexDirection: 'column' }}>
             <div style={{ fontFamily: "Bold" }}>
                 <p style={{ color: "#1f458c" }} className=" fade-element text-3xl md:text-4xl lg:text-7xl text-black font-bold inter-var text-center">
-                    Hi, I'm <a style={{ fontFamily: "Bold-Italic", color: "#11254c" }}>Zakaria</a>
+                {t('hero.title')} <a style={{ fontFamily: 'Bold-Italic', color: '#11254c' }}>Zakaria</a>
                 </p>
                 <p style={{ color: "#11254c", fontFamily: "Bold-Italic" }} className=" fade-element text-xl md:text-3xl mt-4 text-black font-bold inter-var text-center">
-                    CTO, Web full-stack developer, and a passionate learner.
+                {t('hero.subtitle')}
                 </p>
             </div>
         </div>

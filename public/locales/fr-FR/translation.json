@@ -1,6 +1,61 @@
 {
-    "hero" : {
+    "hero": {
         "title": "Salut, je suis ",
         "subtitle": "CTO, développeur Web full-stack, et passionné des nouvelles techno."
+    },
+    "about": {
+        "title": "À propos de moi",
+        "begginning-content": "Salut! Je m'appelle ",
+        "middle-content": ", mais beaucoup me connaissent sous le nom de",
+        "end-content": ". Je suis actuellement basé à Paris, en France, où je travaille en tant que CTO, chef de projet et développeur Web. Mon parcours professionnel est alimenté par une passion profonde pour la technologie et l'innovation. J'adore explorer les dernières avancées technologiques et découvrir comment elles peuvent être exploitées pour améliorer notre monde. Que ce soit en dirigeant des projets, en développant des applications Web ou en gérant des équipes, mon objectif est de faire un impact positif et de favoriser le progrès.",
+        "resume": "CV"
+    },
+    "work": {
+        "title": "Projets",
+        "subtitle": "Voici quelques-uns des projets sur lesquels j'ai travaillé.",
+        "projects": {
+            "0": {
+                "title": "Ma toute première startup",
+                "description": "Avec deux amis, nous avons construit la mobilité de demain."
+            },
+            "1": {
+                "title": "API tierce de Pepper",
+                "description": "J'ai dû découvrir comment créer des API et également, scraper des sites web pour obtenir des données. Découvrez l'API que j'ai créée sur github ;) (Peut être obsolète maintenant...)"
+            },
+            "2": {
+                "title": "Noctotion",
+                "description": "Projet personnel qui m'a également aidé à m'organiser avec tous mes tickets de github sur l'application notion. Pour cela, j'ai utilisé les API de Notion et de Github."
+            },
+            "3": {
+                "title": "FSoccerAlertBot",
+                "description": "Une de mes toutes premières réalisations, j'ai créé un bot twitter qui tweete les derniers scores de football, avec une fonctionnalité incroyable, je vous en dis plus dans l'article suivant."
+            },
+            "4": {
+                "title": "Apprentissage Académique",
+                "description": "Tout au long de ce parcours, j'ai découvert le monde de la banque et de la finance, et j'ai pu travailler sur plusieurs projets web complexes, qui surveillent et maintiennent un grand nombre de transactions. En fait, j'ai travaillé pour l'une des plus grandes banques/mutuelle de France, le Crédit Mutuel."
+            },
+            "5": {
+                "title": "Tous mes projets",
+                "description": "Vous pouvez trouver tous mes projets sur mon compte github. J'ai travaillé sur beaucoup de projets, certains sont privés, mais vous pouvez toujours voir ceux qui sont publics."
+            }
+        }
+    },
+    "menu" : {
+        "home": {
+            "prefix": "A",
+            "suffix": "ccueil"
+        },
+        "about": {
+            "prefix": "À",
+            "suffix": " propos"
+        },
+        "work": {
+            "prefix": "P",
+            "suffix": "rojets"
+        },
+        "blog": {
+            "prefix": "B",
+            "suffix": "log"
+        }
     }
 }

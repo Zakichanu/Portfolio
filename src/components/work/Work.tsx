@@ -10,8 +10,14 @@ import {
 } from "@tabler/icons-react";
 import ballImg from "../../assets/FSA.png";
 import logoRMA from "../../assets/bannerRMA.png";
+import { useTranslation } from "react-i18next";
 
 export function Work() {
+
+
+    const { t } = useTranslation();
+
+    
     useEffect(() => {
         document.querySelectorAll('.fade-element').forEach((element) => {
             element.classList.add('fade-in-up');
@@ -33,18 +39,18 @@ export function Work() {
         <>
             <div style={{ fontFamily: "Bold" }} className="mx-auto mt-20">
                 <p style={{ color: "#1f458c" }} className="fade-element text-xl md:text-3xl lg:text-5xl text-black inter-var text-center">
-                    Work
+                    {t('work.title')}
                 </p>
                 <p style={{ color: "#11254c", fontFamily: "Bold" }} className="fade-element text-center md:text-3xl ml-4 mt-4 text-black inter-var ">
-                    Here are some of the projects I have worked on.
+                    {t('work.subtitle')}
                 </p>
             </div>
             <BentoGrid className="fade-element max-w-4xl mx-auto mt-20">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
-                        title={item.title}
-                        description={item.description}
+                        title={t(`work.projects.${i}.title`)}
+                        description={t(`work.projects.${i}.description`)}
                         header={item.header}
                         icon={item.icon}
                         link={item.link}
@@ -58,7 +64,7 @@ export function Work() {
 }
 const items = [
     {
-        title: "My First ever Startup",
+        title:  "toto",
         description:
             "With two friends, we built the mobility of tomorrow.",
         header: <img src={logoRMA} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-full max-h-36 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,

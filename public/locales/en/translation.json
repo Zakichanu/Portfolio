@@ -1,6 +1,62 @@
 {
-    "hero" : {
+    "hero": {
         "title": "Hi, I'm ",
         "subtitle": "CTO, Web full-stack developer, and a passionate learner."
+    },
+    "about": {
+        "title": "About me",
+        "begginning-content": "Salut! My name is ",
+        "middle-content": ", though many know me as",
+        "end-content": ". I am currently based in Paris, France, where I work as a CTO, Project Manager, and Web Developer. My professional journey has been fueled by a deep passion for technology and innovation. I thrive on exploring the latest technological advancements and discovering how they can be harnessed to improve our world. Whether it’s through leading projects, developing web applications, or managing teams, my goal is to make a positive impact and drive progress.",
+        "resume" : "Resume"
+    },
+    "work": {
+        "title": "Work",
+        "subtitle": "Here are some of the projects I have worked on.",
+        "projects": {
+            "0": {
+                "title": "My First ever Startup",
+                "description": "With two friends, we built the mobility of tomorrow."
+            },
+            "1": {
+                "title": "Pepper Third Party API",
+                "description": "I had to discover how to create APIs and also, scrap websites to get data. Check out the API I created for on github ;) (Might be deprecated now...)"
+            },
+            "2": {
+                "title": "Noctotion",
+                "description": "Side project also, helped to organize myself with all my tickets from github inside the notion application. For this, I used the Notion & the Github APIs."
+            },
+            "3": {
+                "title": "FSoccerAlertBot",
+                "description": "One of my very first achievements, I created a twitter bot that tweets the latest football scores, with an insane feature, I tell you more about that on the following article."
+            },
+            "4": {
+                "title": "Engineering Apprenticeship",
+                "description": "Through this journey, I discovered the world of banking and finance, and I was able to work on several complex web projects, that monitor and maintain a lot transaction. In fact, I worked for of the biggest bank in France, Crédit Mutuel."
+            },
+            "5":
+            {
+                "title": "All my projects",
+                "description": "You can find all my projects on my github account. I have worked on a lot of projects, some of them are private, but you can still see the public ones."
+            }
+        }
+    },
+    "menu" : {
+        "home": {
+            "prefix": "H",
+            "suffix": "ome"
+        },
+        "about": {
+            "prefix": "A",
+            "suffix": "bout"
+        },
+        "work": {
+            "prefix": "W",
+            "suffix": "ork"
+        },
+        "blog": {
+            "prefix": "B",
+            "suffix": "log"
+        }
     }
 }

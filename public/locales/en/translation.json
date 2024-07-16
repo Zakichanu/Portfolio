@@ -8,7 +8,7 @@
         "begginning-content": "Salut! My name is ",
         "middle-content": ", though many know me as",
         "end-content": ". I am currently based in Paris, France, where I work as a CTO, Project Manager, and Web Developer. My professional journey has been fueled by a deep passion for technology and innovation. I thrive on exploring the latest technological advancements and discovering how they can be harnessed to improve our world. Whether it’s through leading projects, developing web applications, or managing teams, my goal is to make a positive impact and drive progress.",
-        "resume" : "Resume"
+        "resume": "Resume"
     },
     "work": {
         "title": "Work",
@@ -34,14 +34,13 @@
                 "title": "Engineering Apprenticeship",
                 "description": "Through this journey, I discovered the world of banking and finance, and I was able to work on several complex web projects, that monitor and maintain a lot transaction. In fact, I worked for of the biggest bank in France, Crédit Mutuel."
             },
-            "5":
-            {
+            "5": {
                 "title": "All my projects",
                 "description": "You can find all my projects on my github account. I have worked on a lot of projects, some of them are private, but you can still see the public ones."
             }
         }
     },
-    "menu" : {
+    "menu": {
         "home": {
             "prefix": "H",
             "suffix": "ome"
@@ -59,25 +58,52 @@
             "suffix": "log"
         }
     },
-    "blog" : {
+    "blog": {
         "title": "My Blog",
         "subtitle": "I write about my journey as a developer, my projects, and my thoughts on the tech industry.",
-        "bento" : {
-            "0" : {
+        "bento": {
+            "0": {
                 "title": "Being a baby CTO",
                 "description": "Since 2022, I have been working on my first ever tech startup. In this blog post, I share my journey and the lessons I have learned. And I also share my thoughts of the electric vehicle industry."
             },
-            "1" : {
+            "1": {
                 "title": "Football Alert Twitter Bot",
                 "description": "Here's a retrospective on the development of the Football Alert that I built 3 years ago. It was my first real achievement in my little coding journey."
             },
-            "2" : {
+            "2": {
                 "title": "How to approach an IOT project?",
                 "description": "In this blog post, I share my experience of working on an IOT project. I share the challenges I faced and the lessons I learned."
             },
-            "3" : {
+            "3": {
                 "title": "The Journey of Zakichan Technologies",
                 "description": "Zakichan Technologies offers top-notch web technology services and strategic consulting, aiming to bridge the gap between technology and business strategy. Alongside this, it embraces content creation to share knowledge and inspire the tech community."
+            }
+        }
+    },
+    "baby-cto": {
+        "title": "Being a Junior CTO",
+        "type": "Thoughts",
+        "intro": "Launching a startup while being a student is a thrilling yet daunting task, especially when taking on the role of Chief Technology Officer (CTO). This article delves into the unique constraints and advantages of being a student CTO in a startup launched with friends, highlighting the impact of inexperience and the balancing act required to juggle academic and entrepreneurial responsibilities. \n NB: The photo above is my desk, where I have spent most of my time working on my startup and academic projects for the past 6 years.",
+        "core": {
+            "1": {
+                "title": "The Role of a Student CTO",
+                "content": "As the CTO, my main responsibilities include defining our technological vision, overseeing the development process, and ensuring our product meets our business goals. This role demands a strategic mindset, technical expertise, and leadership skills. Balancing these responsibilities with my ,academic commitments adds another layer of complexity, making effective time management and prioritization crucial."
+            },
+            "2": {
+                "title": "Our Project: Bring you a better experience of electric mobility",
+                "content": "Our startup is dedicated to revolutionizing the electric mobility sector by offering a comprehensive range of software and hardware services. As an electric mobility operator, we aim to enhance the user experience for all types of clients, from individual consumers to large businesses. Our innovative solutions include user-friendly mobile applications for easy access to electric vehicles, advanced fleet management systems for businesses, and cutting-edge charging infrastructure. By integrating these services, we strive to create a seamless and efficient ecosystem for electric mobility, making it more accessible and convenient for everyone. \n We believe that the future of transportation lies in sustainable and smart solutions. Our commitment to this vision drives us to continuously develop and improve our offerings, ensuring that our clients have access to the latest technologies and services in electric mobility. Whether you're an individual looking for a reliable electric vehicle or a company seeking to optimize your fleet operations, our tailored solutions are designed to meet your specific needs. By bridging the gap between technology and mobility, we are paving the way for a greener, more efficient future in transportation."
+            },
+            "3": {
+                "title": "Constraints of Being a Student CTO in a Startup with Friends",
+                "content": " - Time Management: Balancing academic responsibilities with the demands of a startup is the the biggest challenge. Effective time management is essential to ensure that both my studies and the startup receive the attention they need. \n - Inexperience: As students, our inexperience can be a significant constraint. We are constantly learning on the job, which can lead to mistakes and steep learning curves. However, these experiences are invaluable for our growth and development. \n - Resource Constraints: Limited resources, including time, money, and expertise, can pose challenges for a student startup. Finding creative solutions and leveraging our network are essential to overcome these constraints. \n - Team Dynamics: Working with friends can be both a strength and a challenge. Navigating personal relationships and professional responsibilities requires open communication, trust, and mutual respect. To be fair, we have been doing a great job so far (since 2022). \n - Academic Commitments: Balancing the demands of a startup with academic commitments can be overwhelming. Prioritizing tasks, setting boundaries, and seeking support are essential strategies to manage these competing responsibilities. \n - Risk Management: As a student startup, we face unique risks and uncertainties. Managing these risks requires a proactive approach, clear communication, and contingency planning to mitigate potential challenges."
+            },
+            "4": {
+                "title": "Navigating Inexperience and Building Expertise",
+                "content": " As a student CTO, embracing a mindset of continuous learning is essential for overcoming the challenges of inexperience. This means actively seeking out opportunities to enhance both technical and business skills through online courses, workshops, and seminars. Staying updated with the latest industry trends and best practices is crucial for maintaining a competitive edge. By dedicating time to learning, you not only improve your own capabilities but also contribute to the overall growth and success of your startup. \n Seeking mentorship is another vital strategy for navigating the complexities of being a student CTO. Experienced mentors can provide invaluable insights and advice, helping you to make informed decisions and avoid common pitfalls. Their guidance can be particularly beneficial when dealing with unfamiliar situations or making strategic choices. Building a network of mentors and advisors who believe in your vision can significantly bolster your confidence and capabilities, providing a strong foundation for your startup's growth. \n Fostering a collaborative approach within your team is also key to overcoming inexperience. Encouraging open communication and leveraging the diverse skills and perspectives of your team members can drive innovation and effective problem-solving. Emphasizing teamwork and collective decision-making helps to distribute the workload and ensures that various aspects of the project are addressed by those with the most relevant expertise. Additionally, being adaptable and open to change is crucial in the dynamic startup environment. Flexibility allows you to pivot when necessary and respond to market demands, ensuring the longevity and success of your venture."
+            },
+            "5": {
+                "title": "Conclusion",
+                "content": "Being a student CTO in a startup launched with friends is a unique and rewarding journey. While inexperience and academic pressures pose significant challenges, the opportunity to learn and grow in such an environment is unparalleled. By embracing continuous learning, seeking mentorship, and maintaining a collaborative and adaptable approach, we can turn these challenges into stepping stones for success. \nAs we continue to develop our innovative platform, I am confident that our passion, combined with our willingness to learn and adapt, will help us overcome obstacles and achieve our goals. The journey of a student entrepreneur was just part of the beginning, and the experiences gained along the way will be invaluable for our future endeavors. Now that we are in 2024, we are more determined than ever to make a positive impact in the electric mobility sector and contribute to a sustainable and smarter future in transportation. Also, now I am not a baby CTO anymore, but a real one. \n Thanks for reading. If you have any questions or suggestions, feel free to contact me via email. \n\nCheck this video (in French), where me and the other co-founders talk about our startup and being a student beside."
             }
         }
     }

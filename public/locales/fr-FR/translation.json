@@ -57,5 +57,27 @@
             "prefix": "B",
             "suffix": "log"
         }
-    }
+    },
+    "blog" : {
+            "title": "Mon Blog",
+            "subtitle": "J'écris sur mon parcours en tant que développeur, mes projets, et mes réflexions sur l'industrie technologique.",
+            "bento" : {
+                "0" : {
+                    "title": "Être un baby CTO",
+                    "description": "Depuis 2022, je travaille sur ma première start-up technologique. Dans cet article de blog, je partage mon parcours et les leçons que j'ai apprises. Je partage également mes pensées sur l'industrie des véhicules électriques."
+                },
+                "1" : {
+                    "title": "Bot Twitter d'alerte football",
+                    "description": "Voici une rétrospective sur le développement de l'Alerte Football que j'ai construite il y a 3 ans. C'était ma première véritable réalisation dans mon petit parcours de codage."
+                },
+                "2" : {
+                    "title": "Comment aborder un projet IOT ?",
+                    "description": "Dans cet article de blog, je partage mon expérience de travail sur un projet IOT. Je partage les défis auxquels j'ai été confronté et les leçons que j'ai apprises."
+                },
+                "3" : {
+                    "title": "Le parcours de Zakichan Technologies",
+                    "description": "Zakichan Technologies offre des services de technologie web de premier ordre et du conseil stratégique, visant à combler le fossé entre la technologie et la stratégie d'entreprise. Parallèlement, elle embrasse la création de contenu pour partager des connaissances et inspirer la communauté technologique."
+                }
+            }
+        }
 }

@@ -4,8 +4,12 @@ import soccerFootAlert from "../../assets/SoccerFootAlert.jpg"
 import zakichanTechRemoveBG from "../../assets/ZakichanTechRemoveBG.png"
 import bannerRMA from "../../assets/bannerRMA.png"
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export function Blog() {
+
+
+  const { t } = useTranslation();
 
   const navigate = useNavigate();
 
@@ -71,20 +75,20 @@ export function Blog() {
     <>
       <div style={{ fontFamily: "Bold" }} className="mx-auto mt-20">
         <p style={{ color: "#1f458c" }} className="fade-element text-xl md:text-3xl lg:text-5xl text-black inter-var text-center">
-          My Blog
+          {t('blog.title')}
         </p>
         <p style={{ color: "#11254c", fontFamily: "Bold" }} className="fade-element text-center md:text-3xl ml-4 mt-4 text-black inter-var ">
-          I write about my journey as a developer, my projects, and my thoughts on the tech industry.
+          {t('blog.subtitle')}
         </p>
       </div>
       <div className=" p-3 fade-element grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-10">
         <WobbleCard onClick={handleBbyCtoClick} containerClassName="col-span-1 lg:col-span-3 bg-blue-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
           <div className="max-w-sm">
             <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-              Being a baby CTO
+              {t('blog.bento.0.title')}
             </h2>
             <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-              Since 2022, I have been working on my first ever tech startup. In this blog post, I share my journey and the lessons I have learned. And I also share my thoughts of the electric vehicle industry.
+              {t('blog.bento.0.description')}
             </p>
           </div>
           <img
@@ -101,10 +105,10 @@ export function Blog() {
         >
           <div className="max-w-xs">
             <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-              Football Alert Twitter Bot
+              {t('blog.bento.1.title')}
             </h2>
             <p className="mt-4 text-left  text-base/6 text-neutral-200">
-              Here's a retrospective on the development of the Football Alert that I built 3 years ago. It was my first real achievement in my little coding journey.
+              {t('blog.bento.1.description')}
             </p>
           </div>
           <img
@@ -117,10 +121,10 @@ export function Blog() {
         </WobbleCard>
         <WobbleCard onClick={handleApproachIotClick} containerClassName="col-span-1 min-h-[300px]">
           <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            How to approach an IOT project?
+           {t('blog.bento.2.title')}
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            In this blog post, I share my experience of working on an IOT project. I share the challenges I faced and the lessons I learned.
+            {t('blog.bento.2.description')}
           </p>
         </WobbleCard>
         <WobbleCard onClick={handleZakichanTechClick}
@@ -129,10 +133,10 @@ export function Blog() {
         >
           <div className="max-w-xs">
             <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-              The Journey of Zakichan Technologies
+              {t('blog.bento.3.title')}
             </h2>
             <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            Zakichan Technologies offers top-notch web technology services and strategic consulting, aiming to bridge the gap between technology and business strategy. Alongside this, it embraces content creation to share knowledge and inspire the tech community.
+              {t('blog.bento.3.description')}
             </p>
           </div>
           <img

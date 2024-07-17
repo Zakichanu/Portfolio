@@ -27,12 +27,12 @@ export function Navbar() {
     };
 
     const handleLogoClick = () => {
-        if(location.pathname !== '/') {
+        if (location.pathname !== '/') {
             document.querySelectorAll('.fade-element').forEach((element) => {
                 element.classList.remove('fade-in-up');
                 element.classList.add('fade-out');
             });
-            
+
         };
         setTimeout(() => {
             history('/');

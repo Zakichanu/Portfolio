@@ -1,4 +1,7 @@
 {
+    "general" : {
+        "date-of-publication": "Date of publication: "
+    },
     "hero": {
         "title": "Hi, I'm ",
         "subtitle": "CTO, Web full-stack developer, and a passionate learner."
@@ -122,8 +125,47 @@
                 "title": "Conclusion",
                 "content": {
                     "1": "Being a student CTO in a startup launched with friends is a unique and rewarding journey. While inexperience and academic pressures pose significant challenges, the opportunity to learn and grow in such an environment is unparalleled. By embracing continuous learning, seeking mentorship, and maintaining a collaborative and adaptable approach, we can turn these challenges into stepping stones for success. \nAs we continue to develop our innovative platform, I am confident that our passion, combined with our willingness to learn and adapt, will help us overcome obstacles and achieve our goals. The journey of a student entrepreneur was just part of the beginning, and the experiences gained along the way will be invaluable for our future endeavors. Now that we are in 2024, we are more determined than ever to make a positive impact in the electric mobility sector and contribute to a sustainable and smarter future in transportation. Also, now I am not a baby CTO anymore, but a real one.",
-                    "2": "Thanks for reading. If you have any questions or suggestions, feel free to contact me via email.",
+                    "2": "Thanks for reading. If you have any questions or suggestions, feel free to contact me via ",
                     "3": "Check this video (in French), where me and the other co-founders talk about our startup and being a student beside."
+                }
+            }
+        }
+    },
+    "footAlert": {
+        "title": "Football Alert Twitter Bot",
+        "type": "Projects",
+        "intro": {
+            "1": "In this article, I will present the design and implementation of a Twitter bot named 'Football Alert Bot'.",
+            "2": "This bot was developed to tweet live scores of matches from the five major European leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1), as well as the Champions League and the Europa League.",
+            "3": "The bot was built using Python and the Tweepy library for TwitteAdditionally, it retrieves and tweets replays of notable goals. This article is developer-oriented and explains the technical aspects of this project."
+        },
+        "core": {
+            "1": {
+                "title": "I. Prerequisites and Technologies Used",
+                "content": "For this project, the following main technologies and tools were used:"
+            },
+            "2": {
+                "title": "II. How this project works",
+                "content": {
+                    "1": "This bot is a Java server application. It uses the Football API to retrieve live scores and replays of goals.",
+                    "2": "The bot then tweets this information using the Twitter API. The bot is scheduled to run periodically to check for new matches and goals.",
+                    "3": "The best feature is the goal replay for some of the goal notifications. For this part, I used JSOUP, which was quite challenging but yielded excellent results (gaining 200 followers in one month, if I am not mistaken)."
+                }
+            },
+            "3": {
+                "title": "III. What was the point of this project?",
+                "content": {
+                    "1": "At the time, I was in my third year of university, and I had developed a strong interest in backend development. This interest was so profound that I felt the need to undertake a project to deepen my understanding of this aspect of programming. Unlike many who prefer learning through documentation and books, I have always been someone who learns best through hands-on practice. This practical approach allows me to understand tools and technologies in depth.",
+                    "2": " Being passionate about football and fascinated by the dynamics of social media, I wanted to merge these interests into a single project. My goal was to create something that would provide real value to people. I envisioned a tool that could deliver instant notifications and replays of football goals, catering to fans' desire for timely updates and highlights. This project was not only a way to enhance my technical skills but also an opportunity to engage with the football community and explore the potential of social media platforms in disseminating real-time sports information. By doing so, I aimed to create a practical and enjoyable application that would resonate with football enthusiasts and keep them informed and entertained."
+                }
+            },
+            "4": {
+                "title": "IV. Conclusion",
+                "content": {
+                    "1": "You might be wondering where this account is now. Well, firstly, it was suspended by Twitter due to DMCA (Digital Millennium Copyright Act) issues related to the replays sourced from TV channels. Secondly, I was unable to maintain it because of my studies and internship commitments.",
+                    "2": "I am planning to create a new version of this bot with a better design and more features. I have gained a lot more experience over the last three years, and I am confident that I can develop an improved version of this bot, especially using the JavaScript environment. The challenge in this new version will be to make it simpler and to manage replays and notifications more effectively. We'll see how it goes in the near future.",
+                    "3": "I hope you enjoyed this article and that it has given you some insight into the development of a Twitter bot. If you have any questions or suggestions, feel free to contact me via ",
+                    "4": "Thank you for reading! I am sharing the repository with you, so if you want to check the code and the design of the bot, feel free to do so!"
                 }
             }
         }

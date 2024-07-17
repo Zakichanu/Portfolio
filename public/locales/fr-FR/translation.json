@@ -1,4 +1,7 @@
 {
+    "general" : {
+        "date-of-publication": "Date de publication : "
+    },
     "hero": {
         "title": "Salut, je suis ",
         "subtitle": "CTO, développeur Web full-stack, et passionné des nouvelles techno."
@@ -67,7 +70,7 @@
                 "description": "Depuis 2022, je travaille sur ma première start-up technologique. Dans cet article de blog, je partage mon parcours et les leçons que j'ai apprises. Je partage également mes pensées sur l'industrie des véhicules électriques."
             },
             "1": {
-                "title": "Bot Twitter d'alerte football",
+                "title": "Bot Twitter de live scores de football",
                 "description": "Voici une rétrospective sur le développement de l'Alerte Football que j'ai construite il y a 3 ans. C'était ma première véritable réalisation dans mon petit parcours de codage."
             },
             "2": {
@@ -125,6 +128,45 @@
                     "2" : "Alors que nous continuons à développer notre plateforme innovante, je suis confiant que notre passion, combinée à notre volonté d'apprendre et de nous adapter, nous aidera à surmonter les obstacles et à atteindre nos objectifs. Le voyage d'un entrepreneur étudiant n'était qu'une partie du début, et les expériences acquises en cours de route seront inestimables pour nos entreprises futures. Maintenant que nous sommes en 2024, nous sommes plus déterminés que jamais à avoir un impact positif dans le secteur de la mobilité électrique et à contribuer à un avenir durable et plus intelligent dans le transport. Aussi, maintenant je ne suis plus un jeune CTO, mais un vrai.",
                     "3" : "Merci de lire. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter par ",
                     "4" : "Regardez cette vidéo (en français), où moi et les autres co-fondateurs parlons de notre startup et d'être étudiant à côté."
+                }
+            }
+        }
+    },
+    "footAlert": {
+        "title": "Bot Twitter Alerte Football",
+        "type": "Projets",
+        "intro": {
+            "1": "Dans cet article, je vais présenter la conception et la mise en œuvre d'un bot Twitter nommé 'Football Bot Alert'.",
+            "2": "Ce bot a été développé pour tweeter les scores en direct des matchs des cinq principales ligues européennes (Premier League, La Liga, Serie A, Bundesliga, Ligue 1), ainsi que de la Ligue des Champions et de la Ligue Europa.",
+            "3": "Le bot a été construit en utilisant Python et la bibliothèque Tweepy pour Twitter. De plus, il récupère et tweete les replays des buts notables. Cet article est orienté développeur et explique les aspects techniques de ce projet."
+        },
+        "core": {
+            "1": {
+                "title": "I. Prérequis et Technologies Utilisées",
+                "content": "Pour ce projet, les principales technologies et outils suivants ont été utilisés :"
+            },
+            "2": {
+                "title": "II. Fonctionnement de ce projet",
+                "content": {
+                    "1": "Ce bot est une application serveur Java. Il utilise l'API Football pour récupérer les scores en direct et les replays des buts.",
+                    "2": "Le bot tweete ensuite ces informations en utilisant l'API Twitter. Le bot est programmé pour s'exécuter périodiquement afin de vérifier les nouveaux matchs et buts.",
+                    "3": "La meilleure fonctionnalité est le replay des buts pour certaines des notifications de but. Pour cette partie, j'ai utilisé JSOUP, ce qui était assez difficile mais a donné d'excellents résultats (obtenant 200 abonnés en un mois, si je ne me trompe pas)."
+                }
+            },
+            "3": {
+                "title": "III. Quel était le but de ce projet ?",
+                "content": {
+                    "1": "À l'époque, j'étais en troisième année d'université, et j'avais développé un fort intérêt pour le développement backend. Cet intérêt était si profond que je ressentais le besoin d'entreprendre un projet pour approfondir ma compréhension de cet aspect de la programmation. Contrairement à beaucoup qui préfèrent apprendre à travers la documentation et les livres, j'ai toujours été quelqu'un qui apprend mieux par la pratique. Cette approche pratique me permet de comprendre les outils et les technologies en profondeur.",
+                    "2": "Étant passionné de football et fasciné par la dynamique des médias sociaux, je voulais fusionner ces intérêts dans un seul projet. Mon objectif était de créer quelque chose qui fournirait une valeur réelle aux gens. J'envisageais un outil capable de fournir des notifications instantanées et des replays de buts de football, répondant au désir des fans pour des mises à jour et des highlights en temps réel. Ce projet n'était pas seulement un moyen d'améliorer mes compétences techniques, mais aussi une opportunité d'interagir avec la communauté du football et d'explorer le potentiel des plateformes de médias sociaux dans la diffusion d'informations sportives en temps réel. Ce faisant, je visais à créer une application pratique et agréable qui résonnerait avec les amateurs de football et les garderait informés et divertis."
+                }
+            },
+            "4": {
+                "title": "IV. Conclusion",
+                "content": {
+                    "1": "Vous vous demandez peut-être où se trouve ce compte maintenant. Eh bien, tout d'abord, il a été suspendu par Twitter en raison de problèmes liés au DMCA (Digital Millennium Copyright Act) concernant les replays provenant de chaînes de télévision. Deuxièmement, je n'ai pas pu le maintenir en raison de mes études et engagements de stage.",
+                    "2": "Je prévois de créer une nouvelle version de ce bot avec un meilleur design et plus de fonctionnalités. J'ai acquis beaucoup plus d'expérience au cours des trois dernières années, et je suis confiant de pouvoir développer une version améliorée de ce bot, surtout en utilisant l'environnement JavaScript. Le défi dans cette nouvelle version sera de le rendre plus simple et de gérer les replays et les notifications de manière plus efficace. Nous verrons comment cela se passe dans un avenir proche.",
+                    "3": "J'espère que vous avez apprécié cet article et qu'il vous a donné un aperçu du développement d'un bot Twitter. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter via ",
+                    "4": "Merci d'avoir lu ! Je partage le dépôt avec vous, donc si vous voulez vérifier le code et la conception du bot, n'hésitez pas à le faire !"
                 }
             }
         }

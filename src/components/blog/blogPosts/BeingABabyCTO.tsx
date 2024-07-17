@@ -123,7 +123,7 @@ export function BeingABabyCTO() {
                     </h2>
 
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
-                        Date of Publication: 2024-05-21
+                        {t('general.date-of-publication')} 2024-05-21
                     </div><br /><br />
                     <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img

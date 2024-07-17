@@ -2,8 +2,96 @@ import { useEffect } from "react";
 import { BentoGridItem } from "../../aceternityUi/bentoGrid/BentoGrid";
 import imgRepo from "../../../assets/FSoccerAlertBot.png";
 import profileBotFootAlert from "../../../assets/SoccerFootAlert.webp";
+import { useTranslation } from "react-i18next";
 
 export function FootAlert() {
+
+    const { t } = useTranslation();
+
+    const dummyContent = [
+        {
+            title: t('footAlert.title'),
+            description: (
+                <>
+    
+                    <p>
+                        {t("footAlert.intro.1")} 
+                        <br />
+                        {t("footAlert.intro.2")}
+                        <br /> 
+                        {t("footAlert.intro.3")}
+                    </p>
+                    <br />
+                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >{t("footAlert.core.1.title")}</p>
+                    <br />
+                    <p>
+                        {t("footAlert.core.1.content")}
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;- Java 11
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://www.api-football.com/">Football API</a>
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://github.com/redouane59/twittered">Twitter API</a>
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://jsoup.org/">Jsoup</a>
+                    </p>
+    
+                    <br />
+                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} > {t("footAlert.core.2.title")}</p>
+                    <br />
+                    <p>
+                        {t("footAlert.core.2.content.1")}  
+                        <br />
+                        {t("footAlert.core.2.content.2")}
+                        <br />
+                        {t("footAlert.core.2.content.3")}
+                    </p>
+    
+                    <br />
+                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >{t("footAlert.core.3.title")}</p>
+                    <br />
+                    <p>
+                        {t("footAlert.core.3.content.1")}
+                        <br /><br />
+                        {t("footAlert.core.3.content.2")}
+                    </p>
+    
+                    <br />
+                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >{t("footAlert.core.4.title")}</p>
+    
+                    <br />
+                    <p>
+                        {t("footAlert.core.4.content.1")}
+    
+                        <br /><br />
+    
+                        {t("footAlert.core.4.content.2")}
+    
+                        <br /><br />
+    
+                        {t("footAlert.core.4.content.3")}<a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakaria.tobbal@zakichan.tech">email</a>.
+    
+                        <br /><br />
+    
+                        {t("footAlert.core.4.content.4")}
+    
+                    </p>
+                    <br /><br />
+                    <BentoGridItem
+                        key={0}
+                        description=""
+                        header={<img src={imgRepo} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-30 md:max-h-50 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
+                        link={"https://github.com/Zakichanu/FSoccerAlertBot"}
+                        className={"md:col-span-3"}
+                    />
+    
+    
+                </>
+            ),
+            badge: t('footAlert.type'),
+        },
+    ];
+
     useEffect(() => {
         const elements = document.querySelectorAll('.h-screen');
         elements.forEach((element) => {
@@ -34,7 +122,7 @@ export function FootAlert() {
                     </h2>
 
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
-                        Date of Publication: 2024-05-20
+                        {t('general.date-of-publication')} 2024-05-20
                     </div><br /><br />
                     <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img
@@ -54,79 +142,3 @@ export function FootAlert() {
         </div>
     );
 }
-
-const dummyContent = [
-    {
-        title: "Football Alert Twitter Bot",
-        description: (
-            <>
-
-                <p>
-                    In this article, I will present the design and implementation of a Twitter bot named "Football Alert Bot". <br />
-                    This bot was developed to tweet live scores of matches from the five major European leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1), as well as the Champions League and the Europa League. <br /> Additionally, it retrieves and tweets replays of notable goals. This article is developer-oriented and explains the technical aspects of this project.
-                </p>
-                <br />
-                <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >I. Prerequisites and Technologies Used</p>
-                <br />
-                <p>For this project, the following main technologies and tools were used:
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;- Java 11
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://www.api-football.com/">Football API</a>
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://github.com/redouane59/twittered">Twitter API</a>
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;- <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="https://jsoup.org/">Jsoup</a>
-                </p>
-
-                <br />
-                <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >II. How this project works</p>
-                <br />
-                <p>This bot is a Java server application. It uses the Football API to retrieve live scores and replays of goals. <br />
-                    The bot then tweets this information using the Twitter API. The bot is scheduled to run periodically to check for new matches and goals. <br />
-                    The best feature is the goal replay for some of the goal notifications. For this part, I used JSOUP, which was quite challenging but yielded excellent results (gaining 200 followers in one month, if I am not mistaken). </p>
-
-                <br />
-                <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >III. What was the point of this project?</p>
-                <br />
-                <p>
-                    At the time, I was in my third year of university, and I had developed a strong interest in backend development. This interest was so profound that I felt the need to undertake a project to deepen my understanding of this aspect of programming. Unlike many who prefer learning through documentation and books, I have always been someone who learns best through hands-on practice. This practical approach allows me to understand tools and technologies in depth.
-                    <br /><br />
-                    Being passionate about football and fascinated by the dynamics of social media, I wanted to merge these interests into a single project. My goal was to create something that would provide real value to people. I envisioned a tool that could deliver instant notifications and replays of football goals, catering to fans' desire for timely updates and highlights. This project was not only a way to enhance my technical skills but also an opportunity to engage with the football community and explore the potential of social media platforms in disseminating real-time sports information. By doing so, I aimed to create a practical and enjoyable application that would resonate with football enthusiasts and keep them informed and entertained.
-                </p>
-
-                <br />
-                <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >IV. Conclusion</p>
-
-                <br />
-                <p>
-                    You might be wondering where this account is now. Well, firstly, it was suspended by Twitter due to DMCA (Digital Millennium Copyright Act) issues related to the replays sourced from TV channels. Secondly, I was unable to maintain it because of my studies and internship commitments.
-
-                    <br /><br />
-
-                    I am planning to create a new version of this bot with a better design and more features. I have gained a lot more experience over the last three years, and I am confident that I can develop an improved version of this bot, especially using the JavaScript environment. The challenge in this new version will be to make it simpler and to manage replays and notifications more effectively. We'll see how it goes in the near future.
-
-                    <br /><br />
-
-                    I hope you enjoyed this article and that it has given you some insight into the development of a Twitter bot. If you have any questions or suggestions, feel free to contact me via <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakaria.tobbal@zakichan.tech">email</a>.
-
-                    <br /><br />
-
-                    Thank you for reading! I am sharing the repository with you, so if you want to check the code and the design of the bot, feel free to do so!
-
-                </p>
-                <br /><br />
-                <BentoGridItem
-                    key={0}
-                    description=""
-                    header={<img src={imgRepo} alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-30 md:max-h-50 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
-                    link={"https://github.com/Zakichanu/FSoccerAlertBot"}
-                    className={"md:col-span-3"}
-                />
-
-
-            </>
-        ),
-        badge: "Projects",
-    },
-];

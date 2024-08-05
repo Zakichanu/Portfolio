@@ -80,6 +80,10 @@
             "3": {
                 "title": "Le parcours de Zakichan Technologies",
                 "description": "Zakichan Technologies offre des services de technologie web de premier ordre et du conseil stratégique, visant à combler le fossé entre la technologie et la stratégie d'entreprise. Parallèlement, elle embrasse la création de contenu pour partager des connaissances et inspirer la communauté technologique."
+            },
+            "4": {
+                "title": "Quand je décide de sauter le pas",
+                "description": "« Quand cela semble effrayant de sauter, c'est exactement à ce moment-là que vous sautez. » Ces mots d'Oscar Isaac résonnent profondément, surtout pour quiconque se tenant au bord de quelque chose de décourageant et d'inconnu. Pour moi, ce saut était de commencer une chaîne YouTube."
             }
         }
     },
@@ -283,5 +287,40 @@
                 }
             }
         }
-    }
+    },
+    "whenUJump": {
+            "title": "Quand Vous Sautez Réellement : Embrasser la Peur de Commencer une Chaîne YouTube",
+            "type": "Réflexions",
+            "intro": "« Quand cela semble effrayant de sauter, c'est exactement à ce moment-là que vous sautez. » Ces mots d'Oscar Isaac résonnent profondément, surtout pour quiconque se tenant au bord de quelque chose de décourageant et d'inconnu. Pour moi, ce saut était de commencer une chaîne YouTube. Aujourd'hui, j'ai uploadé ma toute première vidéo, je suis à la fois terrifié et exalté. Voici comment j'ai embrassé la peur, franchi cette première étape cruciale et trouvé de l'excitation dans le voyage.",
+            "core": {
+                "1": {
+                    "title": "I. La Peur Paralysante",
+                    "content": "Commencer une chaîne YouTube était quelque chose que j'avais envisagé depuis longtemps. J'ai toujours été fasciné par la créativité et la communauté que les YouTubers confirmés semblaient cultiver sans effort. Pourtant, l'idée de me montrer était terrifiante. Et si les gens n'aimaient pas mon contenu ? Et si je m'embarrassais ? La peur du jugement négatif et de l'échec m'a retenu pendant des mois, voire des années."
+                },
+                "2": {
+                    "title": "II. Le Premier Saut",
+                    "content": {
+                        "1": "Finalement, j'ai réalisé qu'attendre que la peur disparaisse était futile. Inspiré par la citation d'Isaac, j'ai décidé que ma peur était un signal — non pas pour battre en retraite, mais pour agir. Un soir, après des jours de doutes incessants, j'ai enregistré ma première vidéo. Le processus était angoissant : je butais sur les mots, m'inquiétais de mon apparence et ajustais constamment l'éclairage et le son. Chaque étape ressemblait à une bataille contre mes insécurités. Enfin, la vidéo était prête. Avec des mains tremblantes, j'ai appuyé sur le bouton 'publier'. Cela ressemblait à un saut dans le vide, sans savoir si j'allais voler ou m'écraser. Mon cœur battait la chamade en regardant la barre de téléchargement se remplir lentement, et au moment où cela s'est terminé, un mélange de terreur et d'exaltation m'a envahi. Je l'avais fait.",
+                        "2": "Lorsque la vidéo a été mise en ligne, la réalité de mon saut s'est imposée. Je n'arrêtais pas de rafraîchir la page, attendant anxieusement les premières vues et commentaires. L'anticipation était presque insupportable. Que penseraient les gens ? Allaient-ils même la regarder ? Chaque minute qui passait ressemblait à une éternité. L'excitation de voir les premières vues et quelques commentaires encourageants était indescriptible. Bien que la peur du jugement persiste, elle s'accompagne d'un nouveau sentiment d'accomplissement. J'avais franchi le premier obstacle et, à ce moment-là, l'exaltation d'avoir finalement franchi le pas éclipsait mes peurs."
+                    }
+                },
+                "3": {
+                    "title": "III. Supporter le Malaise",
+                    "content": "En regardant ma première vidéo, je ne pouvais m'empêcher de grimacer à certains moments. Le son de ma propre voix, les pauses maladroites et l'éclairage moins que parfait ressortaient de manière flagrante. C'était comme si les imperfections étaient décuplées à mes yeux. La vidéo n'était pas parfaite, mais c'était MA vidéo. Chaque vue, chaque 'like' et chaque commentaire semblaient être un mélange de validation et de critique potentielle. Les premiers retours seront des montagnes russes émotionnelles. Les doutes persistent, mais publier cette vidéo était une victoire significative sur ma peur."
+                },
+                "4": {
+                    "title": "IV. Trouver la Joie",
+                    "content": "Malgré la peur initiale et le malaise inévitable, l'excitation de lancer ma chaîne a été immensément gratifiante. Le processus de création, de partage et de commencer à interagir avec la communauté va être une source de joie. J'attends avec impatience chaque nouvelle vidéo, de faire grandir ma chaîne et de trouver de la joie dans la création continue."
+                },
+                "5": {
+                    "title": "V. Retour en Arrière",
+                    "content": {
+                        "1": "Les mots d'Oscar Isaac sonnent plus vrais que jamais. La peur était un signal que j'étais sur le point d'entreprendre quelque chose de significatif. Si j'avais attendu que la peur disparaisse, je serais peut-être encore sur la touche, regardant les autres vivre leurs rêves. Au lieu de cela, j'ai sauté, et même avec une seule vidéo, je trouve déjà de l'excitation dans ce nouveau voyage.",
+                        "2": "Alors, si vous êtes au bord du gouffre, effrayé de sauter, prenez exemple sur quelqu'un qui est passé par là : c'est exactement à ce moment-là que vous devez sauter. La peur ne disparaîtra pas d'elle-même, mais elle peut être un puissant moteur. Embrassez-la, supportez l'inconfort initial et continuez d'avancer. Vous découvrirez peut-être, comme moi, que ce qui vous attend de l'autre côté de la peur est quelque chose de merveilleux et de gratifiant.",
+                        "3": "Merci d'avoir lu. Je vous laisse avec le lien vers ma première vidéo en dessous ! Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter via "
+                    }
+                }
+            }
+        }
+    
 }

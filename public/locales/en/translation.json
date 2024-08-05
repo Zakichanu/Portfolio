@@ -80,6 +80,10 @@
             "3": {
                 "title": "The Journey of Zakichan Technologies",
                 "description": "Zakichan Technologies offers top-notch web technology services and strategic consulting, aiming to bridge the gap between technology and business strategy. Alongside this, it embraces content creation to share knowledge and inspire the tech community."
+            },
+            "4": {
+                "title": "When You Actually Jump: Embracing the Fear of Starting a YouTube Channel",
+                "description": "In this blog post, I share my experience of starting a YouTube channel. I talk about the fear, the excitement, and the joy of taking that leap."
             }
         }
     },
@@ -280,6 +284,41 @@
                     "3": "In the coming months, I plan to expand our service offerings, delve deeper into emerging technologies, and build a strong community around Zakichan Technologies. This will include hosting webinars, launching a YouTube channel, and creating an online forum where tech enthusiasts can share ideas, ask questions, and collaborate on projects. My vision is to make Zakichan Technologies not just a service provider, but a hub for innovation and learning in the tech community.",
                     "4": "The transition from CTO to solo entrepreneur, while maintaining my existing role, has been a transformative experience. With Zakichan Technologies, I am not just building a business; I am building a legacy of innovation, learning, and excellence in the field of web technologies. This dual journey is challenging, but it is also incredibly enriching, offering endless opportunities for growth and success.",
                     "5": "Thanks for reading. Make sure you check all the blog posts, on the link below! If you have any questions or suggestions, feel free to contact me via "
+                }
+            }
+        }
+    },
+    "whenUJump": {
+        "title": "When You Actually Jump: Embracing the Fear of Starting a YouTube Channel",
+        "type": "Thoughts",
+        "intro": "“When it feels scary to jump in, that is exactly when you jump.” These words by Oscar Isaac resonate deeply, especially for anyone standing on the precipice of something daunting and unfamiliar. For me, that leap was starting a YouTube channel. Today, I uploaded my first ever video, I’m both terrified and exhilarated. Here’s how I embraced the fear, took that crucial first step, and found excitement in the journey.",
+        "linkDescription": "Building my SaaS",
+        "core": {
+            "1": {
+                "title": "I. The Paralyzing Fear",
+                "content": "Starting a YouTube channel was something I had contemplated for a long time. I was always fascinated by the creativity and community that successful YouTubers seemed to cultivate effortlessly. Yet, the idea of putting myself out there was terrifying. What if people didn’t like my content? What if I embarrassed myself? The fear of negative judgment and failure held me back for months, even years."
+            },
+            "2": {
+                "title": "II. The First Leap",
+                "content": {
+                    "1": "Eventually, I realized that waiting for the fear to subside was futile. Inspired by Isaac's quote, I decided that my fear was a signal — not to retreat, but to act. One evening, after days of second-guessing myself, I recorded my first video. The process was nerve-wracking: I stumbled over words, worried about my appearance, and constantly adjusted the lighting and sound. Each step felt like an uphill battle against my insecurities. Finally, the video was ready. With trembling hands, I hit the 'publish' button. It felt like stepping off a cliff, not knowing if I would soar or crash. My heart raced as I watched the upload bar slowly fill, and the moment it completed, a mix of dread and exhilaration washed over me. I had done it.",
+                    "2": "As the video went live, the reality of my leap set in. I sat refreshing the page repeatedly, anxiously awaiting the first views and comments. The anticipation was almost unbearable. What would people think? Would they even watch it? Each passing minute felt like an eternity. The thrill of seeing the first few views and a couple of encouraging comments was indescribable. While the fear of judgment lingered, it was accompanied by a newfound sense of achievement. I had conquered the initial hurdle, and in that moment, the exhilaration of having finally made my move overshadowed my fears."
+                }
+            },
+            "3": {
+                "title": "III. Enduring the Cringe",
+                "content": "Watching my first video, I couldn’t help but cringe at certain moments. The sound of my own voice, the awkward pauses, and the less-than-perfect lighting all stood out glaringly. It was as if the imperfections were magnified tenfold in my eyes. The video wasn’t flawless, but it was mine. Every view, every like, and every comment will feel like a mix of validation and potential critique. The initial feedback was a rollercoaster of emotions. The self-doubt is still there, gnawing at the edges of my excitement, but publishing this video was a significant victory over my fear."
+            },
+            "4": {
+                "title": "IV. Finding Joy",
+                "content": "Despite the initial fear and inevitable cringe, the excitement of launching my channel has been immensely rewarding. The process of creating, sharing, and starting to engage with viewers is beginning to be a source of joy. The supportive comments and the budding community around my channel are beginning to form, and they are incredibly encouraging. I’m looking forward to each new video, to growing my channel, and to the joy of continuous creation."
+            },
+            "5": {
+                "title": "V. Reflecting Back",
+                "content": {
+                    "1": "Oscar Isaac’s words ring truer than ever. The fear was a signal that I was about to embark on something significant. Had I waited for the fear to disappear, I might still be on the sidelines, watching others live their dreams. Instead, I took the leap, and even with just one video, I’m already finding excitement in this new journey.",
+                    "2": "So, if you’re standing on the edge, scared to jump, take it from someone who’s been there: that’s exactly when you need to jump. The fear won’t go away on its own, but it can be a powerful motivator. Embrace it, endure the initial discomfort, and keep pushing forward. You might find, as I have, that what awaits on the other side of fear is something wonderful and fulfilling.",
+                    "3": "Thanks for reading. I am letting you with my first video, on the link below! If you have any questions or suggestions, feel free to contact me via "
                 }
             }
         }

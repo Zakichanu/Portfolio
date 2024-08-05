@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { BentoGridItem } from "../../aceternityUi/bentoGrid/BentoGrid";
-import imgLink from "../../../assets/LogoZakichanTech.png";
-import thumbnail from "../../../assets/tibidabo.webp";
+import imgLink from "../../../assets/IMG_7C3BE3B815A1-1.jpeg";
+import thumbnail from "../../../assets/IMG_5591.jpg";
 import { useTranslation } from "react-i18next";
 
-export function ZakichanTechnologies() {
+export function WhenUJump() {
 
     const { t } = useTranslation();
 
@@ -12,83 +12,71 @@ export function ZakichanTechnologies() {
 
     const dummyContent = [
         {
-            title: t('zakichanTechnologies.title'),
+            title: t('whenUJump.title'),
             description: (
                 <>
 
                     <p>
-                        {t('zakichanTechnologies.intro')}
+                        {t('whenUJump.intro')}
                     </p>
                     <br />
                     <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
-                        {t('zakichanTechnologies.core.1.title')}
+                        {t('whenUJump.core.1.title')}
                     </p>
                     <br />
                     <p>
-                        {t('zakichanTechnologies.core.1.content')}
-                    </p>
-
-                    <br />
-                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
-                        {t('zakichanTechnologies.core.2.title')}
-                    </p>
-                    <br />
-                    <p>
-                        {t('zakichanTechnologies.core.2.content.1')}
-                        <br /><br />
-                        {t('zakichanTechnologies.core.2.content.2')}
+                        {t('whenUJump.core.1.content')}
                     </p>
 
                     <br />
                     <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
-                        {t('zakichanTechnologies.core.3.title')}
+                        {t('whenUJump.core.2.title')}
                     </p>
                     <br />
                     <p>
-                        {t('zakichanTechnologies.core.3.content.1')}
+                        {t('whenUJump.core.2.content.1')}
                         <br /><br />
-                        {t('zakichanTechnologies.core.3.content.2')}
+                        {t('whenUJump.core.2.content.2')}
                     </p>
 
                     <br />
                     <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
-                        {t('zakichanTechnologies.core.4.title')}
+                        {t('whenUJump.core.3.title')}
                     </p>
                     <br />
                     <p>
-                        {t('zakichanTechnologies.core.4.content.1')}
-                        <br /><br />
-                        {t('zakichanTechnologies.core.4.content.2')}
+                        {t('whenUJump.core.3.content')}
+                    </p>
+
+                    <br />
+                    <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
+                        {t('whenUJump.core.4.title')}
+                    </p>
+                    <br />
+                    <p>
+                        {t('whenUJump.core.4.content')}
                     </p>
                     <br />
                     <p className="text-4xl mb-4" style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} >
-                        {t('zakichanTechnologies.core.5.title')}
+                        {t('whenUJump.core.5.title')}
                     </p>
                     <br />
                     <p>
-                        {t('zakichanTechnologies.core.5.content.1')}
+                        {t('whenUJump.core.5.content.1')}
 
                         <br /><br />
-                        {t('zakichanTechnologies.core.5.content.2')}
-
-                        <br /><br />
-
-                        {t('zakichanTechnologies.core.5.content.3')}
-
-                        <br /><br />
-
-                        {t('zakichanTechnologies.core.5.content.4')}
+                        {t('whenUJump.core.5.content.2')}
 
                         <br /><br /><br />
-                        {t('zakichanTechnologies.core.5.content.5')} <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakaria.tobbal@zakichan.tech">email</a>.
+                        {t('whenUJump.core.5.content.3')} <a style={{ fontFamily: "Bold", color: "#1f458c" }} href="mailto:zakaria.tobbal@zakichan.tech">email</a>.
                     </p>
                     <br />
 
                     <BentoGridItem
                         key={0}
-                        description="Make sure you check all the blog posts!"
+                        description={t('whenUJump.linkDescription')}
                         header={<img src={imgLink} alt="random" className="flex flex-1 mx-auto my-auto w-50 h-30 max-h-30 md:max-h-50 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />}
-                        link={"https://me.zakichan.tech/blog"}
+                        link={"https://www.youtube.com/watch?v=AxGhRpTof4w"}
                         className={"md:col-span-3"}
                     />
 
@@ -129,14 +117,14 @@ export function ZakichanTechnologies() {
                     </h2>
 
                     <div style={{ fontFamily: "Bold-Italic", color: "#1f458c" }} className="text-lg prose prose-lg dark:prose-invert text-bold">
-                        {t("general.date-of-publication")} 2024-06-19
+                        {t("general.date-of-publication")} 2024-08-05
                     </div><br /><br />
                     <div className="flex justify-center items-center text-2xl w-full md:w-4/5 h-auto prose prose-lg dark:prose-invert mx-auto text-justify px-4 md:px-0">
                         <img
                             src={thumbnail}
                             alt="blog thumbnail"
                             loading="lazy" // Added lazy loading
-                            className="rounded-2xl w-3/5 h-auto"
+                            className="rounded-2xl w-4/5 h-auto"
                         />
 
                     </div>

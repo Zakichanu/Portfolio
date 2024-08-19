@@ -65,6 +65,16 @@ export function Blog() {
     }, 1500);
   }
 
+  const handlePrioritizeTasks = () => {
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
+    });
+    setTimeout(() => {
+      navigate('/blog/prioritize-tasks');
+    }, 1500);
+  }
+
   useEffect(() => {
     document.querySelectorAll('.fade-element').forEach((element) => {
       element.classList.add('fade-in-up');
@@ -158,8 +168,21 @@ export function Blog() {
             className="absolute -right-[1%] lg:-right-[40%] filter -bottom-12 md:-bottom-40 object-contain rounded-2xl"
           />
         </WobbleCard>
+        <WobbleCard onClick={handlePrioritizeTasks}
+          containerClassName="col-span-1 lg:col-span-1 bg-green-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
+          className=""
+        >
+          <div className="max-w-xs">
+            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              {t('blog.bento.5.title')}
+            </h2>
+            <p className="mt-4 text-left  text-base/6 text-neutral-200">
+              {t('blog.bento.5.description')}
+            </p>
+          </div>
+        </WobbleCard>
         <WobbleCard onClick={handleWhenYouJumpClick}
-          containerClassName="col-span-1 lg:col-span-2 bg-yellow-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
+          containerClassName="col-span-1 lg:col-span-1 bg-yellow-800 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]"
           className=""
         >
           <div className="max-w-xs">

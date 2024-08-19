@@ -289,38 +289,85 @@
         }
     },
     "whenUJump": {
-            "title": "Quand Vous Sautez Réellement : Embrasser la Peur de Commencer une Chaîne YouTube",
-            "type": "Réflexions",
-            "intro": "« Quand cela semble effrayant de sauter, c'est exactement à ce moment-là que vous sautez. » Ces mots d'Oscar Isaac résonnent profondément, surtout pour quiconque se tenant au bord de quelque chose de décourageant et d'inconnu. Pour moi, ce saut était de commencer une chaîne YouTube. Aujourd'hui, j'ai uploadé ma toute première vidéo, je suis à la fois terrifié et exalté. Voici comment j'ai embrassé la peur, franchi cette première étape cruciale et trouvé de l'excitation dans le voyage.",
-            "core": {
-                "1": {
-                    "title": "I. La Peur Paralysante",
-                    "content": "Commencer une chaîne YouTube était quelque chose que j'avais envisagé depuis longtemps. J'ai toujours été fasciné par la créativité et la communauté que les YouTubers confirmés semblaient cultiver sans effort. Pourtant, l'idée de me montrer était terrifiante. Et si les gens n'aimaient pas mon contenu ? Et si je m'embarrassais ? La peur du jugement négatif et de l'échec m'a retenu pendant des mois, voire des années."
-                },
-                "2": {
-                    "title": "II. Le Premier Saut",
-                    "content": {
-                        "1": "Finalement, j'ai réalisé qu'attendre que la peur disparaisse était futile. Inspiré par la citation d'Isaac, j'ai décidé que ma peur était un signal — non pas pour battre en retraite, mais pour agir. Un soir, après des jours de doutes incessants, j'ai enregistré ma première vidéo. Le processus était angoissant : je butais sur les mots, m'inquiétais de mon apparence et ajustais constamment l'éclairage et le son. Chaque étape ressemblait à une bataille contre mes insécurités. Enfin, la vidéo était prête. Avec des mains tremblantes, j'ai appuyé sur le bouton 'publier'. Cela ressemblait à un saut dans le vide, sans savoir si j'allais voler ou m'écraser. Mon cœur battait la chamade en regardant la barre de téléchargement se remplir lentement, et au moment où cela s'est terminé, un mélange de terreur et d'exaltation m'a envahi. Je l'avais fait.",
-                        "2": "Lorsque la vidéo a été mise en ligne, la réalité de mon saut s'est imposée. Je n'arrêtais pas de rafraîchir la page, attendant anxieusement les premières vues et commentaires. L'anticipation était presque insupportable. Que penseraient les gens ? Allaient-ils même la regarder ? Chaque minute qui passait ressemblait à une éternité. L'excitation de voir les premières vues et quelques commentaires encourageants était indescriptible. Bien que la peur du jugement persiste, elle s'accompagne d'un nouveau sentiment d'accomplissement. J'avais franchi le premier obstacle et, à ce moment-là, l'exaltation d'avoir finalement franchi le pas éclipsait mes peurs."
-                    }
-                },
-                "3": {
-                    "title": "III. Supporter le Malaise",
-                    "content": "En regardant ma première vidéo, je ne pouvais m'empêcher de grimacer à certains moments. Le son de ma propre voix, les pauses maladroites et l'éclairage moins que parfait ressortaient de manière flagrante. C'était comme si les imperfections étaient décuplées à mes yeux. La vidéo n'était pas parfaite, mais c'était MA vidéo. Chaque vue, chaque 'like' et chaque commentaire semblaient être un mélange de validation et de critique potentielle. Les premiers retours seront des montagnes russes émotionnelles. Les doutes persistent, mais publier cette vidéo était une victoire significative sur ma peur."
-                },
-                "4": {
-                    "title": "IV. Trouver la Joie",
-                    "content": "Malgré la peur initiale et le malaise inévitable, l'excitation de lancer ma chaîne a été immensément gratifiante. Le processus de création, de partage et de commencer à interagir avec la communauté va être une source de joie. J'attends avec impatience chaque nouvelle vidéo, de faire grandir ma chaîne et de trouver de la joie dans la création continue."
-                },
-                "5": {
-                    "title": "V. Retour en Arrière",
-                    "content": {
-                        "1": "Les mots d'Oscar Isaac sonnent plus vrais que jamais. La peur était un signal que j'étais sur le point d'entreprendre quelque chose de significatif. Si j'avais attendu que la peur disparaisse, je serais peut-être encore sur la touche, regardant les autres vivre leurs rêves. Au lieu de cela, j'ai sauté, et même avec une seule vidéo, je trouve déjà de l'excitation dans ce nouveau voyage.",
-                        "2": "Alors, si vous êtes au bord du gouffre, effrayé de sauter, prenez exemple sur quelqu'un qui est passé par là : c'est exactement à ce moment-là que vous devez sauter. La peur ne disparaîtra pas d'elle-même, mais elle peut être un puissant moteur. Embrassez-la, supportez l'inconfort initial et continuez d'avancer. Vous découvrirez peut-être, comme moi, que ce qui vous attend de l'autre côté de la peur est quelque chose de merveilleux et de gratifiant.",
-                        "3": "Merci d'avoir lu. Je vous laisse avec le lien vers ma première vidéo en dessous ! Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter via "
-                    }
+        "title": "Quand Vous Sautez Réellement : Embrasser la Peur de Commencer une Chaîne YouTube",
+        "type": "Réflexions",
+        "intro": "« Quand cela semble effrayant de sauter, c'est exactement à ce moment-là que vous sautez. » Ces mots d'Oscar Isaac résonnent profondément, surtout pour quiconque se tenant au bord de quelque chose de décourageant et d'inconnu. Pour moi, ce saut était de commencer une chaîne YouTube. Aujourd'hui, j'ai uploadé ma toute première vidéo, je suis à la fois terrifié et exalté. Voici comment j'ai embrassé la peur, franchi cette première étape cruciale et trouvé de l'excitation dans le voyage.",
+        "linkDescription": "Regardez la vidéo ici : Je développe mon SaaS",
+        "core": {
+            "1": {
+                "title": "I. La Peur Paralysante",
+                "content": "Commencer une chaîne YouTube était quelque chose que j'avais envisagé depuis longtemps. J'ai toujours été fasciné par la créativité et la communauté que les YouTubers confirmés semblaient cultiver sans effort. Pourtant, l'idée de me montrer était terrifiante. Et si les gens n'aimaient pas mon contenu ? Et si je m'embarrassais ? La peur du jugement négatif et de l'échec m'a retenu pendant des mois, voire des années."
+            },
+            "2": {
+                "title": "II. Le Premier Saut",
+                "content": {
+                    "1": "Finalement, j'ai réalisé qu'attendre que la peur disparaisse était futile. Inspiré par la citation d'Isaac, j'ai décidé que ma peur était un signal — non pas pour battre en retraite, mais pour agir. Un soir, après des jours de doutes incessants, j'ai enregistré ma première vidéo. Le processus était angoissant : je butais sur les mots, m'inquiétais de mon apparence et ajustais constamment l'éclairage et le son. Chaque étape ressemblait à une bataille contre mes insécurités. Enfin, la vidéo était prête. Avec des mains tremblantes, j'ai appuyé sur le bouton 'publier'. Cela ressemblait à un saut dans le vide, sans savoir si j'allais voler ou m'écraser. Mon cœur battait la chamade en regardant la barre de téléchargement se remplir lentement, et au moment où cela s'est terminé, un mélange de terreur et d'exaltation m'a envahi. Je l'avais fait.",
+                    "2": "Lorsque la vidéo a été mise en ligne, la réalité de mon saut s'est imposée. Je n'arrêtais pas de rafraîchir la page, attendant anxieusement les premières vues et commentaires. L'anticipation était presque insupportable. Que penseraient les gens ? Allaient-ils même la regarder ? Chaque minute qui passait ressemblait à une éternité. L'excitation de voir les premières vues et quelques commentaires encourageants était indescriptible. Bien que la peur du jugement persiste, elle s'accompagne d'un nouveau sentiment d'accomplissement. J'avais franchi le premier obstacle et, à ce moment-là, l'exaltation d'avoir finalement franchi le pas éclipsait mes peurs."
+                }
+            },
+            "3": {
+                "title": "III. Supporter le Malaise",
+                "content": "En regardant ma première vidéo, je ne pouvais m'empêcher de grimacer à certains moments. Le son de ma propre voix, les pauses maladroites et l'éclairage moins que parfait ressortaient de manière flagrante. C'était comme si les imperfections étaient décuplées à mes yeux. La vidéo n'était pas parfaite, mais c'était MA vidéo. Chaque vue, chaque 'like' et chaque commentaire semblaient être un mélange de validation et de critique potentielle. Les premiers retours seront des montagnes russes émotionnelles. Les doutes persistent, mais publier cette vidéo était une victoire significative sur ma peur."
+            },
+            "4": {
+                "title": "IV. Trouver la Joie",
+                "content": "Malgré la peur initiale et le malaise inévitable, l'excitation de lancer ma chaîne a été immensément gratifiante. Le processus de création, de partage et de commencer à interagir avec la communauté va être une source de joie. J'attends avec impatience chaque nouvelle vidéo, de faire grandir ma chaîne et de trouver de la joie dans la création continue."
+            },
+            "5": {
+                "title": "V. Retour en Arrière",
+                "content": {
+                    "1": "Les mots d'Oscar Isaac sonnent plus vrais que jamais. La peur était un signal que j'étais sur le point d'entreprendre quelque chose de significatif. Si j'avais attendu que la peur disparaisse, je serais peut-être encore sur la touche, regardant les autres vivre leurs rêves. Au lieu de cela, j'ai sauté, et même avec une seule vidéo, je trouve déjà de l'excitation dans ce nouveau voyage.",
+                    "2": "Alors, si vous êtes au bord du gouffre, effrayé de sauter, prenez exemple sur quelqu'un qui est passé par là : c'est exactement à ce moment-là que vous devez sauter. La peur ne disparaîtra pas d'elle-même, mais elle peut être un puissant moteur. Embrassez-la, supportez l'inconfort initial et continuez d'avancer. Vous découvrirez peut-être, comme moi, que ce qui vous attend de l'autre côté de la peur est quelque chose de merveilleux et de gratifiant.",
+                    "3": "Merci d'avoir lu. Je vous laisse avec le lien vers ma première vidéo en dessous ! Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter via "
                 }
             }
         }
-    
+    },
+    "prioritizeTasks": {
+        "title": "Comment un entrepreneur de 23 ans priorise ses tâches ?",
+        "type": "Guide",
+        "intro": "À 23 ans, jongler avec les exigences de mes deux business, les projets personnels et les engagements sociaux peut être écrasant. La gestion efficace du temps et la priorisation des tâches sont essentielles pour rester concentré, productif et équilibré. Voici un guide pour aider les jeunes entrepreneurs à prioriser leurs tâches et à atteindre leurs objectifs.",
+        "linkDescription": "Routine Matinale d'Andrew Huberman",
+        "core": {
+            "1": {
+                "title": "I. Planifier et Établir des Objectifs",
+                "content": {
+                    "1": "La première étape pour prioriser efficacement vos tâches est de planifier et d'établir des objectifs clairs. Identifiez vos objectifs à court et à long terme, et décomposez-les en tâches spécifiques et mesurables. Cela vous aide à rester concentré sur ce qui est important et à éviter de vous laisser submerger par les détails.",
+                    "2": "L'outil de plannification que vous allez choisir doit rester simple et efficace. Pour ma part, j'utilise ",
+                    "3": "Notion",
+                    "4":  " pour organiser mes tâches et mes projets. Cela me permet de garder une vue d'ensemble de mes objectifs et de suivre ma progression de manière transparente.",
+                    "5": "Placer une période à vos objectifs, mettez en place des SPRINT personnel (Daily, Weekly, Quaterly) pour vous aider à rester concentré et à suivre vos progrès. Dans mon cas, je me fixe des objectifs hebdomadaires."
+                }
+            },
+            "2": {
+                "title": "II. Dans vos objectifs, évaluez l'urgence et l'importance",
+                "content": {
+                    "1": "Une fois que vous avez établi vos objectifs, évaluez l'urgence et l'importance de chaque tâche. Utilisez la matrice d'Eisenhower pour classer vos tâches en fonction de leur priorité. Les tâches urgentes et importantes doivent être traitées en premier, tandis que les tâches non urgentes et non importantes peuvent être reportées ou déléguées.",
+                    "2": "Qu'est-ce que la matrice d'Eisenhower ? C'est un outil de gestion du temps qui aide à prioriser les tâches en fonction de leur urgence et de leur importance. Les tâches sont classées en quatre catégories : Urgentes et Importantes, Importantes mais non Urgentes, Urgentes mais non Importantes, et ni Urgentes ni Importantes.",
+                    "3": "Par exemple, dans le cadre du lancement des développements d'une application mobile, il faut prioriser la planification, le développement et les tests des fonctionnalités principales, tandis que le marketing et les autres fonctionnalités mineures peuvent être traités plus tard."                    
+
+                }
+            },
+            "3": {
+                "title": "III. Pratiquer l'Auto-Soins et l'Équilibre",
+                "content": {
+                    "1": "Alors que la priorisation des tâches est essentielle pour la réussite entrepreneuriale, il est tout aussi important de pratiquer l'auto-soins et de maintenir un équilibre sain. Prenez le temps de vous reposer, de faire de l'exercice et de vous détendre pour recharger vos batteries et éviter l'épuisement professionnel. Établissez des limites claires entre le travail et la vie personnelle pour maintenir votre bien-être émotionnel et physique.",
+                    "2": "Dans mon cas, je prends du temps chaque matin pour faire des exercices physique. Cela me permet de commencer la journée avec une énergie positive et de rester concentré tout au long de la journée.",
+                    "3": "Une chose supplémentaire que j'aimerais faire, c'est la routine matinale d'Andrew Huberman. Qui consiste à :",
+                    "4": " - Se réveiller à la même heure chaque jour.",
+                    "5": " - Boire de l'eau.",
+                    "6": " - Marcher pendant 10 minutes, dehors, à l'exposition de la lumière.",
+                    "7": "La chose la plus importante est de rester cohérent avec votre routine. Vous vous sentirez plus énergique et plus concentré tout au long de la journée. Et cela vous aidera à prioriser vos tâches de manière plus efficace."
+                }
+            },
+            "4": {
+                "title": "IV. Conclusion",
+                "content": {
+                    "1": "La priorisation des tâches est un élément essentiel de la gestion du temps pour les jeunes entrepreneurs. En planifiant, en établissant des objectifs clairs, en évaluant l'urgence et l'importance et en pratiquant l'auto-soins, vous pouvez rester concentré, productif et équilibré. Trouvez l'approche qui fonctionne le mieux pour vous et adaptez-la à vos besoins et à vos objectifs.",
+                    "2": "En fin de compte, la priorisation des tâches est un processus continu qui nécessite de la pratique et de l'ajustement. En restant flexible, en apprenant de vos expériences et en restant concentré sur vos objectifs, vous pouvez atteindre vos objectifs et réaliser votre plein potentiel en tant qu'entrepreneur.",
+                    "3": "Merci d'avoir lu. Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter via "
+                }
+            }
+        }
+    }
 }

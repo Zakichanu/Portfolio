@@ -105,9 +105,9 @@ export function WhenUJump() {
     }, []);
 
     return (
-        <div className="flex flex-col justify-center items-center mt-10 fade-element max-w-4xl mx-auto pt-4 relative text-justify md:text-left px-4 md:px-0">
+        <div className="flex flex-col justify-center items-center mt-10 fade-element max-w-4xl mx-auto pt-4 relative md:text-left px-4 md:px-0">
             {dummyContent.map((item, index) => (
-                <div key={`content-${index}`} className="mb-10 text-justify mx-auto px-4 md:px-0">
+                <div key={`content-${index}`} className="mb-10 mx-auto px-4 md:px-0">
                     <p style={{ fontFamily: "Bold", color: "#1f458c" }} className="text-2xl md:text-6xl  mb-4">
                         {item.title}
                     </p>

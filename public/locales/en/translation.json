@@ -1,5 +1,5 @@
 {
-    "general" : {
+    "general": {
         "date-of-publication": "Date of publication: "
     },
     "hero": {
@@ -182,12 +182,11 @@
             "1": {
                 "title": "I. Defining Objectives and Scope",
                 "content": {
-                    "1" : "The first step in any IoT project is to clearly define your objectives and the scope of your project. Identify the specific problems you aim to solve and the benefits you expect to gain.",
-                    "2" : "Key Questions:",
-                    "3" : " - What are the main goals of your IoT project?",
-                    "4" : " - What challenges are you trying to address?",
-                    "5" : " - What outcomes do you expect to achieve?"
-
+                    "1": "The first step in any IoT project is to clearly define your objectives and the scope of your project. Identify the specific problems you aim to solve and the benefits you expect to gain.",
+                    "2": "Key Questions:",
+                    "3": " - What are the main goals of your IoT project?",
+                    "4": " - What challenges are you trying to address?",
+                    "5": " - What outcomes do you expect to achieve?"
                 }
             },
             "2": {
@@ -319,6 +318,52 @@
                     "1": "Oscar Isaac’s words ring truer than ever. The fear was a signal that I was about to embark on something significant. Had I waited for the fear to disappear, I might still be on the sidelines, watching others live their dreams. Instead, I took the leap, and even with just one video, I’m already finding excitement in this new journey.",
                     "2": "So, if you’re standing on the edge, scared to jump, take it from someone who’s been there: that’s exactly when you need to jump. The fear won’t go away on its own, but it can be a powerful motivator. Embrace it, endure the initial discomfort, and keep pushing forward. You might find, as I have, that what awaits on the other side of fear is something wonderful and fulfilling.",
                     "3": "Thanks for reading. I am letting you with my first video, on the link below! If you have any questions or suggestions, feel free to contact me via "
+                }
+            }
+        }
+    },
+    "prioritizeTasks": {
+        "title": "How Does a 23-Year-Old Entrepreneur Prioritize Their Tasks?",
+        "type": "Guide",
+        "intro": "At 23, juggling the demands of my two businesses, personal projects, and social commitments can be overwhelming. Effective time management and task prioritization are essential to staying focused, productive, and balanced. Here's a guide to help young entrepreneurs prioritize their tasks and achieve their goals.",
+        "linkDescription": "Morning Routine by Andrew Huberman",
+        "core": {
+            "1": {
+                "title": "I. Plan and Set Goals",
+                "content": {
+                    "1": "The first step to effectively prioritizing your tasks is to plan and set clear goals. Identify your short-term and long-term objectives, and break them down into specific and measurable tasks. This helps you stay focused on what's important and avoid getting overwhelmed by the details.",
+                    "2": "The planning tool you choose should remain simple and effective. Personally, I use",
+                    "3": "Notion",
+                    "4": "to organize my tasks and projects. This allows me to keep an overview of my goals and track my progress transparently.",
+                    "5": "Assign timeframes to your goals, and set up personal SPRINTS (Daily, Weekly, Quarterly) to help you stay focused and track your progress. In my case, I set weekly goals."
+                }
+            },
+            "2": {
+                "title": "II. Evaluate Urgency and Importance in Your Goals",
+                "content": {
+                    "1": "Once you've set your goals, evaluate the urgency and importance of each task. Use the Eisenhower Matrix to classify your tasks based on priority. Urgent and important tasks should be handled first, while non-urgent and non-important tasks can be postponed or delegated.",
+                    "2": "What is the Eisenhower Matrix? It’s a time management tool that helps prioritize tasks based on their urgency and importance. Tasks are classified into four categories: Urgent and Important, Important but not Urgent, Urgent but not Important, and neither Urgent nor Important.",
+                    "3": "For example, when launching the development of a mobile application, planning, development, and testing of core features should be prioritized, while marketing and other minor features can be dealt with later."
+                }
+            },
+            "3": {
+                "title": "III. Practice Self-Care and Balance",
+                "content": {
+                    "1": "While prioritizing tasks is crucial for entrepreneurial success, it’s equally important to practice self-care and maintain a healthy balance. Take time to rest, exercise, and relax to recharge and avoid burnout. Set clear boundaries between work and personal life to maintain emotional and physical well-being.",
+                    "2": "In my case, I take time each morning for physical exercise. This helps me start the day with positive energy and stay focused throughout the day.",
+                    "3": "One additional thing I’d like to implement is Andrew Huberman’s morning routine, which includes:",
+                    "4": " - Waking up at the same time every day.",
+                    "5": " - Drinking water.",
+                    "6": " - Walking outside for 10 minutes to get sunlight exposure.",
+                    "7": "The most important thing is to stay consistent with your routine. You will feel more energetic and focused throughout the day, which will help you prioritize your tasks more effectively."
+                }
+            },
+            "4": {
+                "title": "IV. Conclusion",
+                "content": {
+                    "1": "Task prioritization is a key element of time management for young entrepreneurs. By planning, setting clear goals, evaluating urgency and importance, and practicing self-care, you can stay focused, productive, and balanced. Find the approach that works best for you and adapt it to your needs and goals.",
+                    "2": "Ultimately, task prioritization is a continuous process that requires practice and adjustment. By staying flexible, learning from your experiences, and keeping your goals in sight, you can achieve your objectives and realize your full potential as an entrepreneur.",
+                    "3": "Thank you for reading. If you have any questions or suggestions, feel free to contact me via"
                 }
             }
         }

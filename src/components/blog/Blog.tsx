@@ -195,10 +195,10 @@ export function Blog() {
           </div>
           <img
             src={whenUJump}
-            width={400}
-            height={400}
+            width={200}
+            height={200}
             alt="linear demo image"
-            className="absolute -right-[1%] lg:-right-[1%] filter -bottom-12 md:-bottom-5 object-contain rounded-2xl"
+            className="absolute -right-[10%] lg:-right-[5%] filter -bottom-16 md:-bottom-15 object-contain rounded-2xl"
           />
         </WobbleCard>
 

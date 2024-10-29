@@ -74,7 +74,7 @@ const items = [
     {
         title: "Pepper Third Party API",
         description: "I had to discover how to create APIs and also, scrap websites to get data. Check out the API I created for on github ;) (Might be deprecated now...)",
-        header: <img src="https://www.pepper.com/images/icon-hero.png" alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-20 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
+        header: <img src="https://t.waziper.com/uploads/avatar/68510.jpg" alt="random" className="flex flex-1 mx-auto my-auto w-auto h-auto max-h-20 rounded-xl from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100" />,
         icon: <IconFlame className="h-4 w-4 text-neutral-500" />,
         link: "https://github.com/Zakichanu/Pepper-Api"
     },

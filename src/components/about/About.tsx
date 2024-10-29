@@ -15,7 +15,7 @@ const About = () => {
 
     return (
         <div className="mt-20 flex flex-col md:flex-row sm:flex-row items-center">
-            <img src={profilePic} alt="My Face" className=" w-1/3 h-1/6 fade-element rounded-3xl md:mr-10 md:ml-10 xl:mr-10 xl:ml-10" />
+            <img src={profilePic} alt="My Face" className="p-1 w-5/6 md:w-2/5 h-1/6 fade-element rounded-3xl md:mr-10 md:ml-10 xl:mr-10 xl:ml-10" />
             <div style={{ fontFamily: "Bold" }}>
                 <p style={{ color: "#1f458c" }} className="fade-element text-xl md:text-3xl lg:text-5xl text-black inter-var text-center">
                     {t('about.title')}

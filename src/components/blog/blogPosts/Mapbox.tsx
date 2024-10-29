@@ -122,7 +122,7 @@ export function Mapbox() {
                         {item.title}
                     </p>
 
-                    <h2 className="bg-purple-900 text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+                    <h2 className="bg-yellow-600 text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
                         {item.badge}
                     </h2>
 

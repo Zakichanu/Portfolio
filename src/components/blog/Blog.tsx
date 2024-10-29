@@ -4,6 +4,7 @@ import soccerFootAlert from "../../assets/SoccerFootAlert.jpg"
 import zakichanTechRemoveBG from "../../assets/ZakichanTechRemoveBG.png"
 import whenUJump from "../../assets/IMG_5472.jpg"
 import bannerRMA from "../../assets/bannerRMA.png"
+import mapboxLogo from "../../assets/imgMapboxLogo.png"
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -41,6 +42,17 @@ export function Blog() {
     });
     setTimeout(() => {
       navigate('/blog/being-a-baby-cto');
+    }, 1500);
+
+  };
+
+  const handleMapboxClick = () => {
+    document.querySelectorAll('.fade-element').forEach((element) => {
+      element.classList.remove('fade-in-up');
+      element.classList.add('fade-out');
+    });
+    setTimeout(() => {
+      navigate('/blog/mapbox');
     }, 1500);
 
   };
@@ -201,7 +213,23 @@ export function Blog() {
             className="absolute -right-[10%] lg:-right-[5%] filter -bottom-16 md:-bottom-15 object-contain rounded-2xl"
           />
         </WobbleCard>
-
+        <WobbleCard onClick={handleMapboxClick} containerClassName="col-span-1 lg:col-span-3 bg-sky-600 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+          <div className="max-w-sm">
+            <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+              {t('blog.bento.6.title')}
+            </h2>
+            <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+              {t('blog.bento.6.description')}
+            </p>
+          </div>
+          <img
+            src={mapboxLogo}
+            width={500}
+            height={500}
+            alt="linear demo image"
+            className="absolute -right-[1%] lg:-right-[1%] filter -bottom-0 md:top-24 object-contain rounded-2xl"
+          />
+        </WobbleCard>
       </div>
     </>
 

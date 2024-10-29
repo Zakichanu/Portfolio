@@ -12,6 +12,7 @@ import { ApproachIOT } from "./components/blog/blogPosts/ApproachIOT";
 import { ZakichanTechnologies } from "./components/blog/blogPosts/ZakichanTechnologies";
 import { WhenUJump } from "./components/blog/blogPosts/WhenYouJump";
 import { PrioritizingTasks } from "./components/blog/blogPosts/PrioritizingTasks";
+import { Mapbox } from "./components/blog/blogPosts/Mapbox";
 
 function Router() {
     // NB : organization and chargingstation are the parameters passed in the URL. Organization represents the subdomain of the tenant and the charginstation represents the charging station ID.
@@ -51,6 +52,7 @@ function Router() {
                     <Route path="/blog/zakichan-technologies" element={<ZakichanTechnologies />} />
                     <Route path="/blog/when-you-jump" element={<WhenUJump />} />
                     <Route path="/blog/prioritize-tasks" element={<PrioritizingTasks />} />
+                    <Route path="/blog/mapbox" element={<Mapbox />} />
                 </Routes>
         </BrowserRouter>
     );
